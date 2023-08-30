@@ -29,4 +29,54 @@
     <Folder Include="Areas\admin\Models\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\css\animate.css" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\bootstrap.min.css" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\flaticon.css" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\font-awesome.min.css" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\jquery-ui.min.css" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\owl.carousel.min.css" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\slicknav.min.css" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\style.css" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\arrow-down.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\arrow-up.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\banner-bg.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\bg-2.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\bg.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\blog-thumbs\1.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\blog-thumbs\2.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\cards.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\cart\1.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\cart\2.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\cart\3.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\favicon.ico" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\icons\1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\icons\2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\icons\3.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\logo-light.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\logo.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\mastercart.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\paypal.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\product\1.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\product\10.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\product\11.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\product\12.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\product\2.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\product\3.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\product\4.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\product\5.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\product\6.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\product\7.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\product\8.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\product\9.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\single-product\1.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\single-product\2.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\single-product\3.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\single-product\4.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\single-product\thumb-1.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\single-product\thumb-2.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\single-product\thumb-3.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\single-product\thumb-4.jpg" />
+  </ItemGroup>
+
 </Project>

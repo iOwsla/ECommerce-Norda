@@ -28,6 +28,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Administrator/Desktop/Github/divisima/Divisima/Divisima.WebUI/Areas/admin/Views/Slide/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2xpZGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Administrator/Desktop/Github/divisima/Divisima/Divisima.WebUI/Areas/admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

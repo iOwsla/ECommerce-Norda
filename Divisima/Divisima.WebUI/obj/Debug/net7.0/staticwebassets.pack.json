@@ -8809,260 +8809,1168 @@
       "PackagePath": "staticwebassets\\admin\\plugins\\global\\sourcemaps\\tiny-slider.css.map"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\css\\animate.css",
-      "PackagePath": "staticwebassets\\css\\animate.css"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\css\\plugins\\animate.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\animate.css"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\css\\plugins\\easyzoom.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\easyzoom.css"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\css\\flaticon.css",
-      "PackagePath": "staticwebassets\\css\\flaticon.css"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\css\\plugins\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\jquery-ui.css"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\css\\font-awesome.min.css",
-      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\css\\plugins\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\magnific-popup.css"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\css\\jquery-ui.min.css",
-      "PackagePath": "staticwebassets\\css\\jquery-ui.min.css"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\css\\plugins\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\nice-select.css"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\css\\owl.carousel.min.css",
-      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\css\\plugins\\plugins.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\plugins.css"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\css\\slicknav.min.css",
-      "PackagePath": "staticwebassets\\css\\slicknav.min.css"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\css\\plugins\\plugins.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\plugins.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\css\\plugins\\slick.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\slick.css"
     },
     {
       "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\icon-fonts\\Flaticon.eot",
-      "PackagePath": "staticwebassets\\icon-fonts\\Flaticon.eot"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\css\\vendor\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\icon-fonts\\Flaticon.svg",
-      "PackagePath": "staticwebassets\\icon-fonts\\Flaticon.svg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\css\\vendor\\elegant.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\elegant.css"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\icon-fonts\\Flaticon.ttf",
-      "PackagePath": "staticwebassets\\icon-fonts\\Flaticon.ttf"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\css\\vendor\\linear-icon.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\linear-icon.css"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\icon-fonts\\Flaticon.woff",
-      "PackagePath": "staticwebassets\\icon-fonts\\Flaticon.woff"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\css\\vendor\\simple-line-icons.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\simple-line-icons.css"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\icon-fonts\\fontawesome-webfont.eot",
-      "PackagePath": "staticwebassets\\icon-fonts\\fontawesome-webfont.eot"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\css\\vendor\\vendor.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\vendor.css"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\icon-fonts\\fontawesome-webfont.svg",
-      "PackagePath": "staticwebassets\\icon-fonts\\fontawesome-webfont.svg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\css\\vendor\\vendor.min.css",
+      "PackagePath": "staticwebassets\\css\\vendor\\vendor.min.css"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\icon-fonts\\fontawesome-webfont.woff",
-      "PackagePath": "staticwebassets\\icon-fonts\\fontawesome-webfont.woff"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.eot"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\icon-fonts\\fontawesome-webfont.woff2",
-      "PackagePath": "staticwebassets\\icon-fonts\\fontawesome-webfont.woff2"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.svg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\arrow-down.png",
-      "PackagePath": "staticwebassets\\img\\arrow-down.png"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.ttf"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\arrow-up.png",
-      "PackagePath": "staticwebassets\\img\\arrow-up.png"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.woff"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\banner-bg.jpg",
-      "PackagePath": "staticwebassets\\img\\banner-bg.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\fonts\\Linearicons-Free.eot",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.eot"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\bg-2.jpg",
-      "PackagePath": "staticwebassets\\img\\bg-2.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\fonts\\Linearicons-Free.svg",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.svg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\bg.jpg",
-      "PackagePath": "staticwebassets\\img\\bg.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\fonts\\Linearicons-Free.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.ttf"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\blog-thumbs\\1.jpg",
-      "PackagePath": "staticwebassets\\img\\blog-thumbs\\1.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\fonts\\Linearicons-Free.woff",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.woff"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\blog-thumbs\\2.jpg",
-      "PackagePath": "staticwebassets\\img\\blog-thumbs\\2.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\fonts\\Linearicons-Free.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.woff2"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\cards.png",
-      "PackagePath": "staticwebassets\\img\\cards.png"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\fonts\\Simple-Line-Icons.eot",
+      "PackagePath": "staticwebassets\\fonts\\Simple-Line-Icons.eot"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\cart\\1.jpg",
-      "PackagePath": "staticwebassets\\img\\cart\\1.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\fonts\\Simple-Line-Icons.svg",
+      "PackagePath": "staticwebassets\\fonts\\Simple-Line-Icons.svg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\cart\\2.jpg",
-      "PackagePath": "staticwebassets\\img\\cart\\2.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\fonts\\Simple-Line-Icons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Simple-Line-Icons.ttf"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\cart\\3.jpg",
-      "PackagePath": "staticwebassets\\img\\cart\\3.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\fonts\\Simple-Line-Icons.woff",
+      "PackagePath": "staticwebassets\\fonts\\Simple-Line-Icons.woff"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\favicon.ico",
-      "PackagePath": "staticwebassets\\img\\favicon.ico"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\fonts\\Simple-Line-Icons.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Simple-Line-Icons.woff2"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\icons\\1.png",
-      "PackagePath": "staticwebassets\\img\\icons\\1.png"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\about\\logo.png",
+      "PackagePath": "staticwebassets\\images\\about\\logo.png"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\icons\\2.png",
-      "PackagePath": "staticwebassets\\img\\icons\\2.png"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-1.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\icons\\3.png",
-      "PackagePath": "staticwebassets\\img\\icons\\3.png"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-10.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-10.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\logo-light.png",
-      "PackagePath": "staticwebassets\\img\\logo-light.png"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-11.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-11.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\logo.png",
-      "PackagePath": "staticwebassets\\img\\logo.png"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-12.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-12.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\mastercart.png",
-      "PackagePath": "staticwebassets\\img\\mastercart.png"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-12.png",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-12.png"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\paypal.png",
-      "PackagePath": "staticwebassets\\img\\paypal.png"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-13.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-13.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\product\\1.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\1.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-14.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-14.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\product\\10.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\10.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-15.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-15.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\product\\11.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\11.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-16.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-16.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\product\\12.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\12.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-17.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-17.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\product\\2.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\2.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-18.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-18.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\product\\3.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\3.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-19.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-19.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\product\\4.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\4.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-2.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\product\\5.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\5.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-20.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-20.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\product\\6.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\6.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-21.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-21.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\product\\7.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\7.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-22.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-22.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\product\\8.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\8.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-23.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-23.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\product\\9.jpg",
-      "PackagePath": "staticwebassets\\img\\product\\9.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-24.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-24.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\single-product\\1.jpg",
-      "PackagePath": "staticwebassets\\img\\single-product\\1.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-25.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-25.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\single-product\\2.jpg",
-      "PackagePath": "staticwebassets\\img\\single-product\\2.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-26.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-26.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\single-product\\3.jpg",
-      "PackagePath": "staticwebassets\\img\\single-product\\3.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-27.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-27.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\single-product\\4.jpg",
-      "PackagePath": "staticwebassets\\img\\single-product\\4.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-28.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-28.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\single-product\\thumb-1.jpg",
-      "PackagePath": "staticwebassets\\img\\single-product\\thumb-1.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-29.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-29.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\single-product\\thumb-2.jpg",
-      "PackagePath": "staticwebassets\\img\\single-product\\thumb-2.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-3.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\single-product\\thumb-3.jpg",
-      "PackagePath": "staticwebassets\\img\\single-product\\thumb-3.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-30.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-30.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\img\\single-product\\thumb-4.jpg",
-      "PackagePath": "staticwebassets\\img\\single-product\\thumb-4.jpg"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-31.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-31.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-4.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-4.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\jquery-3.2.1.min.js",
-      "PackagePath": "staticwebassets\\js\\jquery-3.2.1.min.js"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-5.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-5.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\jquery-ui.min.js",
-      "PackagePath": "staticwebassets\\js\\jquery-ui.min.js"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-6.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-6.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\jquery.nicescroll.min.js",
-      "PackagePath": "staticwebassets\\js\\jquery.nicescroll.min.js"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-7.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-7.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\jquery.slicknav.min.js",
-      "PackagePath": "staticwebassets\\js\\jquery.slicknav.min.js"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-8.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-8.jpg"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\jquery.zoom.min.js",
-      "PackagePath": "staticwebassets\\js\\jquery.zoom.min.js"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\banner\\banner-9.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\bg\\bg-1.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\bg-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\bg\\bg-2.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\bg\\bg-3.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\bg-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\blog\\blog-7.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\blog\\blog-8.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\blog\\blog-details-2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-details-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\blog\\blog-details-3.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-details-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\blog\\blog-details.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-details.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\blog\\comment-1.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\comment-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\blog\\comment-2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\comment-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\brand-logo\\brand-logo-1.png",
+      "PackagePath": "staticwebassets\\images\\brand-logo\\brand-logo-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\brand-logo\\brand-logo-10.png",
+      "PackagePath": "staticwebassets\\images\\brand-logo\\brand-logo-10.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\brand-logo\\brand-logo-11.png",
+      "PackagePath": "staticwebassets\\images\\brand-logo\\brand-logo-11.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\brand-logo\\brand-logo-2.png",
+      "PackagePath": "staticwebassets\\images\\brand-logo\\brand-logo-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\brand-logo\\brand-logo-3.png",
+      "PackagePath": "staticwebassets\\images\\brand-logo\\brand-logo-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\brand-logo\\brand-logo-4.png",
+      "PackagePath": "staticwebassets\\images\\brand-logo\\brand-logo-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\brand-logo\\brand-logo-5.png",
+      "PackagePath": "staticwebassets\\images\\brand-logo\\brand-logo-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\brand-logo\\brand-logo-6.png",
+      "PackagePath": "staticwebassets\\images\\brand-logo\\brand-logo-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\brand-logo\\brand-logo-7.png",
+      "PackagePath": "staticwebassets\\images\\brand-logo\\brand-logo-7.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\brand-logo\\brand-logo-8.png",
+      "PackagePath": "staticwebassets\\images\\brand-logo\\brand-logo-8.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\brand-logo\\brand-logo-9.png",
+      "PackagePath": "staticwebassets\\images\\brand-logo\\brand-logo-9.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\cart\\cart-1.jpg",
+      "PackagePath": "staticwebassets\\images\\cart\\cart-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\cart\\cart-2.jpg",
+      "PackagePath": "staticwebassets\\images\\cart\\cart-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\icon-img\\app-1.png",
+      "PackagePath": "staticwebassets\\images\\icon-img\\app-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\icon-img\\app-2.png",
+      "PackagePath": "staticwebassets\\images\\icon-img\\app-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\icon-img\\cart.png",
+      "PackagePath": "staticwebassets\\images\\icon-img\\cart.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\icon-img\\payment.png",
+      "PackagePath": "staticwebassets\\images\\icon-img\\payment.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\icon-img\\pin.png",
+      "PackagePath": "staticwebassets\\images\\icon-img\\pin.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\icon-img\\quotes-icon.png",
+      "PackagePath": "staticwebassets\\images\\icon-img\\quotes-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\icon-img\\select.png",
+      "PackagePath": "staticwebassets\\images\\icon-img\\select.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\icon-img\\shop.png",
+      "PackagePath": "staticwebassets\\images\\icon-img\\shop.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\instagram\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\instagram\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\instagram\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\instagram\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\instagram\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\instagram\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\instagram\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\instagram\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\instagram\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\instagram\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\logo\\logo-2.png",
+      "PackagePath": "staticwebassets\\images\\logo\\logo-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\logo\\logo-3.png",
+      "PackagePath": "staticwebassets\\images\\logo\\logo-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\logo\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\menu\\menu-categori-1.png",
+      "PackagePath": "staticwebassets\\images\\menu\\menu-categori-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\b-large-1.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\b-large-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\b-large-10.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\b-large-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\b-large-11.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\b-large-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\b-large-12.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\b-large-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\b-large-2.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\b-large-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\b-large-3.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\b-large-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\b-large-4.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\b-large-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\b-large-9.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\b-large-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\brand-img.png",
+      "PackagePath": "staticwebassets\\images\\product-details\\brand-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\client-1.png",
+      "PackagePath": "staticwebassets\\images\\product-details\\client-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\large-1.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\large-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\large-2.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\large-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\large-3.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\large-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\large-4.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\large-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\large-5.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\large-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\large-6.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\large-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\large-7.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\large-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\large-8.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\large-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\small-1.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\small-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\small-2.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\small-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\small-3.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\small-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\small-4.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\small-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\sticky-sidebar1.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\sticky-sidebar1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\sticky-sidebar2.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\sticky-sidebar2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\sticky-sidebar3.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\sticky-sidebar3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product-details\\sticky-sidebar4.jpg",
+      "PackagePath": "staticwebassets\\images\\product-details\\sticky-sidebar4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\deal-product.png",
+      "PackagePath": "staticwebassets\\images\\product\\deal-product.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-1.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-10.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-11.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-12.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-13.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-14.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-15.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-16.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-17.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-18.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-19.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-2.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-20.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-21.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-22.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-23.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-24.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-25.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-26.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-27.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-28.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-28.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-29.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-29.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-3.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-30.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-30.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-31.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-31.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-32.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-32.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-33.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-33.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-34.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-34.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-35.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-35.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-36.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-36.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-37.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-37.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-38.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-38.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-39.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-39.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-4.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-40.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-40.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-41.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-41.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-42.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-42.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-43.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-43.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-44.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-44.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-45.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-45.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-46.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-46.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-47.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-47.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-48.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-48.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-49.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-49.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-5.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-50.png",
+      "PackagePath": "staticwebassets\\images\\product\\product-50.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-51.png",
+      "PackagePath": "staticwebassets\\images\\product\\product-51.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-52.png",
+      "PackagePath": "staticwebassets\\images\\product\\product-52.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-53.png",
+      "PackagePath": "staticwebassets\\images\\product\\product-53.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-54.png",
+      "PackagePath": "staticwebassets\\images\\product\\product-54.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-55.png",
+      "PackagePath": "staticwebassets\\images\\product\\product-55.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-56.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-56.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-57.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-57.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-58.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-58.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-59.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-59.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-6.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-60.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-60.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-61.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-61.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-62.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-62.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-63.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-63.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-64.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-64.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-65.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-65.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-66.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-66.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-67.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-67.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-68.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-68.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-69.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-69.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-7.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-70.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-70.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-71.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-71.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-72.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-72.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-73.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-73.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-74.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-74.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-75.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-75.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-76.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-76.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-77.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-77.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-78.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-78.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-79.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-79.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-8.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-80.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-80.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-81.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-81.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-82.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-82.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-83.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-83.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-84.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-84.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-85.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-85.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-86.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-86.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-87.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-87.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-88.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-88.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-89.png",
+      "PackagePath": "staticwebassets\\images\\product\\product-89.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-9.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-90.png",
+      "PackagePath": "staticwebassets\\images\\product\\product-90.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-91.png",
+      "PackagePath": "staticwebassets\\images\\product\\product-91.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-92.png",
+      "PackagePath": "staticwebassets\\images\\product\\product-92.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-93.png",
+      "PackagePath": "staticwebassets\\images\\product\\product-93.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-94.png",
+      "PackagePath": "staticwebassets\\images\\product\\product-94.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-95.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-95.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-96.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-96.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-97.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-97.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-98.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-98.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-99.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-99.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-categories-1.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-categories-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-categories-2.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-categories-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-categories-3.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-categories-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-categories-4.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-categories-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-categories-5.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-categories-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\product-categories-6.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-categories-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\quickview-large-1.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\quickview-large-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\quickview-s1.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\quickview-s1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\quickview-s2.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\quickview-s2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\quickview-s3.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\quickview-s3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\product\\quickview-s4.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\quickview-s4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\slider\\hm-1-slider-1.png",
+      "PackagePath": "staticwebassets\\images\\slider\\hm-1-slider-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\slider\\hm-10-slider-1.png",
+      "PackagePath": "staticwebassets\\images\\slider\\hm-10-slider-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\slider\\hm-2-slider-1.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\hm-2-slider-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\slider\\hm-2-slider-2.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\hm-2-slider-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\slider\\hm-3-slider-1.png",
+      "PackagePath": "staticwebassets\\images\\slider\\hm-3-slider-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\slider\\hm-3-slider-2.png",
+      "PackagePath": "staticwebassets\\images\\slider\\hm-3-slider-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\slider\\hm-3-slider-3.png",
+      "PackagePath": "staticwebassets\\images\\slider\\hm-3-slider-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\slider\\hm-3-small-tshirt-1.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\hm-3-small-tshirt-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\slider\\hm-3-small-tshirt-2.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\hm-3-small-tshirt-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\slider\\hm-3-small-tshirt-3.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\hm-3-small-tshirt-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\slider\\hm-4-slider-1.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\hm-4-slider-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\slider\\hm-4-slider-2.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\hm-4-slider-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\slider\\hm-5-slider-1.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\hm-5-slider-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\slider\\hm-5-slider-2.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\hm-5-slider-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\slider\\hm-7-slider-1.png",
+      "PackagePath": "staticwebassets\\images\\slider\\hm-7-slider-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\slider\\hm-8-slider-1.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\hm-8-slider-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\slider\\hm-9-slider-1.png",
+      "PackagePath": "staticwebassets\\images\\slider\\hm-9-slider-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\team\\team-1.jpg",
+      "PackagePath": "staticwebassets\\images\\team\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\team\\team-2.jpg",
+      "PackagePath": "staticwebassets\\images\\team\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\team\\team-3.jpg",
+      "PackagePath": "staticwebassets\\images\\team\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\team\\team-4.jpg",
+      "PackagePath": "staticwebassets\\images\\team\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\testimonial\\client-1.png",
+      "PackagePath": "staticwebassets\\images\\testimonial\\client-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\testimonial\\client-2.png",
+      "PackagePath": "staticwebassets\\images\\testimonial\\client-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\images\\testimonial\\client-3.png",
+      "PackagePath": "staticwebassets\\images\\testimonial\\client-3.png"
     },
     {
       "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\map.js",
-      "PackagePath": "staticwebassets\\js\\map.js"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\plugins\\ajax-mail.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\ajax-mail.js"
     },
     {
-      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\owl.carousel.min.js",
-      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\plugins\\easyzoom.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\easyzoom.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\plugins\\jquery-ui-touch-punch.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jquery-ui-touch-punch.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\plugins\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jquery-ui.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\plugins\\jquery.instagramfeed.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jquery.instagramfeed.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\plugins\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\plugins\\jquery.syotimer.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jquery.syotimer.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\plugins\\magnific-popup.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\magnific-popup.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\plugins\\plugins.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\plugins.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\plugins\\plugins.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\plugins.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\plugins\\scrollup.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\scrollup.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\plugins\\slick.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\slick.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\plugins\\sticky-sidebar.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\sticky-sidebar.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\plugins\\wow.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\wow.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\vendor\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\vendor\\jquery-migrate-v3.3.2.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\jquery-migrate-v3.3.2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\vendor\\jquery-v3.6.0.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\jquery-v3.6.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\vendor\\modernizr-3.11.7.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\modernizr-3.11.7.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\vendor\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Desktop\\Github\\divisima\\Divisima\\Divisima.WebUI\\wwwroot\\js\\vendor\\vendor.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\vendor.js"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Divisima.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",

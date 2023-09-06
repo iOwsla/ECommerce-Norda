@@ -21,6 +21,7 @@ namespace Divisima.WebUI.Areas.admin.Controllers
             repoAdmin = _repoAdmin;
         }
 
+        [Route("/admin")]
         public IActionResult Index()
         {
             return View();
@@ -71,7 +72,8 @@ namespace Divisima.WebUI.Areas.admin.Controllers
             return View();
         }
 
-        public async Task<IActionResult> Logout()
+		[Route("/admin/logout"), AllowAnonymous]
+		public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync();
             return Redirect("/");

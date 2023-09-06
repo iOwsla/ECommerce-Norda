@@ -1,0 +1,97 @@
+﻿@model Product
+<form class="form d-flex flex-column flex-lg-row"
+      method="post"
+      enctype="multipart/form-data"
+      asp-controller="Product"
+      asp-action="Create"
+      asp-area="admin">
+    <div class="d-flex flex-column flex-row-fluid gap-7 gap-lg-10">
+        <div class="card card-flush py-4">
+            <div class="card-header">
+                <div class="card-title">
+                    <h2>Ürün Oluştur</h2>
+                </div>
+            </div>
+            <div class="card-body pt-0">
+                <div class="mb-10 fv-row">
+                    <style>
+                        .image-input-placeholder {
+                            background-image: url('/admin/media/svg/files/blank-image.svg');
+                        }
+                        [data-bs-theme="dark"] .image-input-placeholder {
+                            background-image: url('/admin/media/svg/files/blank-image-dark.svg');
+                        }
+                    </style>
+                    <div class="image-input image-input-empty image-input-outline image-input-placeholder mb-3" data-kt-image-input="true">
+                        <div class="image-input-wrapper w-150px h-150px"></div>
+                        <label class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="change" data-bs-toggle="tooltip" title="Change avatar">
+                            <i class="ki-duotone ki-pencil fs-7">
+                                <span class="path1"></span>
+                                <span class="path2"></span>
+                            </i>
+                            <input type="file" accept=".png, .jpg, .jpeg" />
+                            <input type="hidden" name="avatar_remove" />
+                        </label>
+                        <span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="cancel" data-bs-toggle="tooltip" title="Cancel avatar">
+                            <i class="ki-duotone ki-cross fs-2">
+                                <span class="path1"></span>
+                                <span class="path2"></span>
+                            </i>
+                        </span>
+                        <span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="remove" data-bs-toggle="tooltip" title="Remove avatar">
+                            <i class="ki-duotone ki-cross fs-2">
+                                <span class="path1"></span>
+                                <span class="path2"></span>
+                            </i>
+                        </span>
+                    </div>
+                    <div class="text-muted fs-7">Set the category thumbnail image. Only *.png, *.jpg and *.jpeg image files are accepted</div>
+                </div>
+                <div class="mb-10 fv-row">
+                    <label class="required form-label" asp-for="@Model.Name"></label>
+                    <input asp-for="@Model.Name" class="form-control mb-2">
+                    <span class="text-danger fs-7" asp-validation-for="@Model.Name"></span>
+                </div>
+                <div class="mb-10 fv-row">
+                    <label class="required form-label" asp-for="@Model.BrandID"></label>
+                    <select asp-for="@Model.BrandID" asp-items="@ViewBag.Brands" class="form-select" data-control="select2" data-placeholder="Select an option">
+                        <option value="">Bir Model Seçiniz</option>
+                    </select>
+                    <span class="text-danger fs-7" asp-validation-for="@Model.Name"></span>
+                </div>
+                <div class="mb-10 fv-row">
+                    <label class="required form-label" asp-for="@Model.Description"></label>
+                    <textarea asp-for="@Model.Description" class="form-control mb-2 editor"></textarea>
+                    <span class="text-danger fs-7" asp-validation-for="@Model.Description"></span>
+                </div>
+                <div class="mb-10 fv-row">
+                    <label class="required form-label" asp-for="@Model.Detail"></label>
+                    <textarea asp-for="@Model.Detail" class="form-control mb-2 editor"></textarea>
+                    <span class="text-danger fs-7" asp-validation-for="@Model.Detail"></span>
+                </div>
+                <div class="mb-10 fv-row">
+                    <label class="required form-label" asp-for="@Model.Price"></label>
+                    <input asp-for="@Model.Price" class="form-control mb-2" />
+                    <span class="text-danger fs-7" asp-validation-for="@Model.Price"></span>
+                </div>
+                <div class="mb-10 fv-row">
+                    <label class="required form-label" asp-for="@Model.Stock"></label>
+                    <input asp-for="@Model.Stock" class="form-control mb-2" />
+                    <span class="text-danger fs-7" asp-validation-for="@Model.Stock"></span>
+                </div>
+                <div class="mb-10 fv-row">
+                    <label class="required form-label" asp-for="@Model.DisplayIndex"></label>
+                    <input asp-for="@Model.DisplayIndex" class="form-control mb-2">
+                    <span class="text-danger fs-7" asp-validation-for="@Model.DisplayIndex"></span>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-end">
+            <a asp-area="admin" asp-controller="Product" asp-action="Index" class="btn btn-light me-5">İptal</a>
+            <button type="submit" class="btn btn-primary">
+                Kaydet
+            </button>
+        </div>
+    </div>
+</form>
+

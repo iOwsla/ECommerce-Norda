@@ -4,9 +4,9 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using Divisima.DAL.Contexts;
+using Norda.DAL.Contexts;
 
-namespace Divisima.BL.Repositories
+namespace Norda.BL.Repositories
 {
     public class SqlRepository<T> : IRepository<T> where T : class
     {

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Divisima.DAL.Entities
+namespace Norda.DAL.Entities
 {
 	[Table("Coupon")]
 	public class Coupon

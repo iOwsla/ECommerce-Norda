@@ -1,5 +1,5 @@
-using Divisima.BL.Repositories;
-using Divisima.DAL.Contexts;
+using Norda.BL.Repositories;
+using Norda.DAL.Contexts;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,9 +10,9 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(SqlRepository<>));
 builder.Services.AddDbContext<SqlContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("CS1")));
 
-// AddSingelton : Bir request iþleminde nesneden uygulama yaþamý boyunca 1 tane üretilir.
-// AddScoped: Ayný request iþleminde nesneden 1 tane üretilir.
-// AddTransient: Her request iþleminde yenibir nesne üretilir.
+// AddSingelton : Bir request iï¿½leminde nesneden uygulama yaï¿½amï¿½ boyunca 1 tane ï¿½retilir.
+// AddScoped: Aynï¿½ request iï¿½leminde nesneden 1 tane ï¿½retilir.
+// AddTransient: Her request iï¿½leminde yenibir nesne ï¿½retilir.
 
 
 // custom authentication in .Net Core, (Asp.Net Memberhip)
@@ -32,7 +32,7 @@ if (!app.Environment.IsDevelopment())
 app.UseStaticFiles();
 
 app.UseRouting();
-app.UseAuthentication(); // Kimlik Doðrulama
+app.UseAuthentication(); // Kimlik Doï¿½rulama
 app.UseAuthorization(); // Kimlik Yetkilendirme
 
 app.MapControllerRoute(name: "admin", pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");

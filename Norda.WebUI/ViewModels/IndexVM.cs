@@ -1,6 +1,6 @@
-﻿using Divisima.DAL.Entities;
+﻿using Norda.DAL.Entities;
 
-namespace Divisima.WebUI.ViewModels
+namespace Norda.WebUI.ViewModels
 {
 	public class IndexVM
 	{

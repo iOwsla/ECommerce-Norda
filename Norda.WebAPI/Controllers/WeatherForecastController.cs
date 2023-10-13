@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Divisima.WebAPI.Controllers
+namespace Norda.WebAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]

@@ -1,9 +1,9 @@
-﻿using Divisima.BL.Repositories;
-using Divisima.DAL.Entities;
-using Divisima.WebUI.ViewModels;
+﻿using Norda.BL.Repositories;
+using Norda.DAL.Entities;
+using Norda.WebUI.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Divisima.WebUI.Controllers
+namespace Norda.WebUI.Controllers
 {
     public class HomeController : Controller
     {

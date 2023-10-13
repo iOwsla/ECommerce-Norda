@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Divisima.DAL.Entities;
+using Norda.DAL.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Divisima.DAL.Contexts
+namespace Norda.DAL.Contexts
 {
     public class SqlContext : DbContext
     {

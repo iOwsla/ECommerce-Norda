@@ -1,4 +1,4 @@
-﻿namespace Divisima.BL
+﻿namespace Norda.BL
 {
     public class Class1
     {

@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Divisima.BL.Repositories
+namespace Norda.BL.Repositories
 {
     public interface IRepository<T>
     {

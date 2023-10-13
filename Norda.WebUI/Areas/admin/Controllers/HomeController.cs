@@ -1,14 +1,14 @@
 ﻿using System.Security.Claims;
-using Divisima.BL.Repositories;
-using Divisima.DAL.Contexts;
-using Divisima.DAL.Entities;
-using Divisima.WebUI.Tools;
+using Norda.BL.Repositories;
+using Norda.DAL.Contexts;
+using Norda.DAL.Entities;
+using Norda.WebUI.Tools;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Divisima.WebUI.Areas.admin.Controllers
+namespace Norda.WebUI.Areas.admin.Controllers
 {
     [Area("admin"), Authorize]
     public class HomeController : Controller
@@ -51,7 +51,7 @@ namespace Divisima.WebUI.Areas.admin.Controllers
                     new Claim(ClaimTypes.PrimarySid, admin.ID.ToString()),
                     new Claim(ClaimTypes.Name, admin.Name + " " + admin.Surname)
                 };
-                ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, "DivisimaAuth");
+                ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, "NordaAuth");
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
                     new ClaimsPrincipal(claimsIdentity), new AuthenticationProperties() { IsPersistent = true });
 

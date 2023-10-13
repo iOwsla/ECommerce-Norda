@@ -1,10 +1,10 @@
-﻿using Divisima.BL.Repositories;
-using Divisima.DAL.Entities;
-using Divisima.WebUI.Tools;
+﻿using Norda.BL.Repositories;
+using Norda.DAL.Entities;
+using Norda.WebUI.Tools;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Divisima.WebUI.Areas.admin.Controllers;
+namespace Norda.WebUI.Areas.admin.Controllers;
 
 [Area("admin"),Authorize]
 public class SlideController : Controller

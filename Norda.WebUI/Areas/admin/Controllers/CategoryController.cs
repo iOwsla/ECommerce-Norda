@@ -1,11 +1,11 @@
-﻿using Divisima.BL.Repositories;
-using Divisima.DAL.Entities;
+﻿using Norda.BL.Repositories;
+using Norda.DAL.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
-namespace Divisima.WebUI.Areas.admin.Controllers;
+namespace Norda.WebUI.Areas.admin.Controllers;
 
 [Area("admin"),Authorize]
 public class CategoryController : Controller

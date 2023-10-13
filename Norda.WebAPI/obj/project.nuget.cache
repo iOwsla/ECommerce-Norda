@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eXbV1RN1ov1ffomte46nfDuMZ9syg5RMlnQYBGFmAcD7aIbVPNn5Zq2pXp3mw7cmaC8cRVqA6Tip9WdJPBr4Wg==",
+  "dgSpecHash": "iLW1/MSDp0fvlg14+Z4AeY3bYhJU+9fNUy03NtwcTX5ZV6uistNwRSHO92me1eA4LM7Uil7PQLavt/w3v8/N0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Divisima.WebAPI\\Norda.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.WebAPI\\Norda.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Makdos\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.9\\microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",
     "C:\\Users\\Makdos\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

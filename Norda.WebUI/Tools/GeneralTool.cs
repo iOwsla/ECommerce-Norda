@@ -2,7 +2,7 @@
 using System.Text;
 using System.Security.Cryptography;
 using Microsoft.CodeAnalysis.Scripting;
-namespace Divisima.WebUI.Tools
+namespace Norda.WebUI.Tools
 {
     public class GeneralTool
     {

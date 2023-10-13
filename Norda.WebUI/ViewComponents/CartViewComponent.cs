@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Divisima.WebUI.ViewComponents
+namespace Norda.WebUI.ViewComponents
 {
 	public class CartViewComponent: ViewComponent
 	{

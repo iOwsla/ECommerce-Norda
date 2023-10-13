@@ -1,4 +1,4 @@
-namespace Divisima.WebAPI
+namespace Norda.WebAPI
 {
     public class WeatherForecast
     {

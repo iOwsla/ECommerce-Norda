@@ -22,18 +22,18 @@ namespace Divisima.DAL.Contexts
         public DbSet<Category> Category { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductPicture> ProductPicture { get; set; }
-        public DbSet<ProductCategory> ProductCategories { get; set; }
+        public DbSet<ProductCategory> ProductCategory { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // fluent api
 
             //çoka çok ilişkilendirme
-            modelBuilder.Entity<ProductCategory>().HasKey(x => new
-            {
-                x.ProductID,
-                x.CategoryID
-            }); // Kompozit anahtar
+            // Bu anahtar tanımlamasını kaldır
+            // modelBuilder.Entity<ProductCategory>().HasKey(x => new { x.ProductID, x.CategoryID });
+
+
+
 
             // bire çok ilişki ile ara kategoriyle bağlantı kurup orada çoka çok ilişki kavramını yapmak.
             modelBuilder.Entity<ProductCategory>().HasOne(x => x.Product).WithMany(x => x.ProductCategories).HasForeignKey(x => x.ProductID).OnDelete(DeleteBehavior.SetNull);

@@ -60,6 +60,13 @@
                     <span class="text-danger fs-7" asp-validation-for="@Model.Name"></span>
                 </div>
                 <div class="mb-10 fv-row">
+                    <label class="required form-label" asp-for="@Model.ProductCategories"></label>
+                    <select asp-for="@Model.ProductCategories" asp-items="@ViewBag.Categories" class="form-select" data-control="select2" data-placeholder="Select an option">
+                        <option value="">Bir Model Seçiniz</option>
+                    </select>
+                    <span class="text-danger fs-7" asp-validation-for="@Model.Name"></span>
+                </div>
+                <div class="mb-10 fv-row">
                     <label class="required form-label" asp-for="@Model.Description"></label>
                     <textarea asp-for="@Model.Description" class="form-control mb-2 editor"></textarea>
                     <span class="text-danger fs-7" asp-validation-for="@Model.Description"></span>

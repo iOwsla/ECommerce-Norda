@@ -13,10 +13,12 @@ public class ProductController : Controller
 {
     IRepository<Product> repoProduct;
     IRepository<Brand> repoBrand;
-    public ProductController(IRepository<Product> _repoProduct, IRepository<Brand> _repoBrand)
+    IRepository<Category> repoCategory;
+    public ProductController(IRepository<Product> _repoProduct, IRepository<Brand> _repoBrand, IRepository<Category> _repoCategory)
     {
         repoProduct = _repoProduct;
         repoBrand = _repoBrand;
+        repoCategory = _repoCategory;
     }
 
     // GET
@@ -35,6 +37,12 @@ public class ProductController : Controller
         ViewBag.Title = "Product Oluşturma";
 
         ViewBag.Brands = repoBrand.GetAll().OrderBy(x => x.Name).Select(x => new SelectListItem
+        {
+            Text = x.Name,
+            Value = x.ID.ToString()
+        });
+
+        ViewBag.Categories = repoCategory.GetAll().OrderBy(x => x.DisplayIndex).Select(x => new SelectListItem
         {
             Text = x.Name,
             Value = x.ID.ToString()

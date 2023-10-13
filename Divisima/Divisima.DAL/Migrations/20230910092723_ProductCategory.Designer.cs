@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Divisima.DAL.Migrations
 {
     [DbContext(typeof(SqlContext))]
-    [Migration("20230906121704_productcategory2")]
-    partial class productcategory2
+    [Migration("20230910092723_ProductCategory")]
+    partial class ProductCategory
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -153,18 +153,23 @@ namespace Divisima.DAL.Migrations
 
             modelBuilder.Entity("Divisima.DAL.Entities.ProductCategory", b =>
                 {
-                    b.Property<int?>("ProductID")
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<int?>("CategoryID")
                         .HasColumnType("int");
 
-                    b.Property<int?>("ID")
+                    b.Property<int?>("ProductID")
                         .HasColumnType("int");
 
-                    b.HasKey("ProductID", "CategoryID");
+                    b.HasKey("ID");
 
                     b.HasIndex("CategoryID");
+
+                    b.HasIndex("ProductID");
 
                     b.ToTable("ProductCategory");
                 });
@@ -261,14 +266,12 @@ namespace Divisima.DAL.Migrations
                     b.HasOne("Divisima.DAL.Entities.Category", "Category")
                         .WithMany("ProductCategories")
                         .HasForeignKey("CategoryID")
-                        .OnDelete(DeleteBehavior.SetNull)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.HasOne("Divisima.DAL.Entities.Product", "Product")
                         .WithMany("ProductCategories")
                         .HasForeignKey("ProductID")
-                        .OnDelete(DeleteBehavior.SetNull)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.Navigation("Category");
 

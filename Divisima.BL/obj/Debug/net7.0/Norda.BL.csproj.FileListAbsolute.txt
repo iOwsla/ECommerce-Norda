@@ -1,0 +1,15 @@
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.BL\bin\Debug\net7.0\Norda.BL.deps.json
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.BL\bin\Debug\net7.0\Norda.BL.dll
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.BL\bin\Debug\net7.0\Norda.BL.pdb
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.BL\bin\Debug\net7.0\Norda.DAL.dll
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.BL\bin\Debug\net7.0\Norda.DAL.pdb
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.BL\obj\Debug\net7.0\Norda.BL.csproj.AssemblyReference.cache
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.BL\obj\Debug\net7.0\Norda.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.BL\obj\Debug\net7.0\Norda.BL.AssemblyInfoInputs.cache
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.BL\obj\Debug\net7.0\Norda.BL.AssemblyInfo.cs
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.BL\obj\Debug\net7.0\Norda.BL.csproj.CoreCompileInputs.cache
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.BL\obj\Debug\net7.0\Norda.BL.csproj.CopyComplete
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.BL\obj\Debug\net7.0\Norda.BL.dll
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.BL\obj\Debug\net7.0\refint\Norda.BL.dll
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.BL\obj\Debug\net7.0\Norda.BL.pdb
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.BL\obj\Debug\net7.0\ref\Norda.BL.dll

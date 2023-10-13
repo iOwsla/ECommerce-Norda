@@ -1,0 +1,14 @@
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.DAL\bin\Debug\net7.0\Norda.DAL.deps.json
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.DAL\bin\Debug\net7.0\Norda.DAL.runtimeconfig.json
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.DAL\bin\Debug\net7.0\Norda.DAL.dll
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.DAL\bin\Debug\net7.0\Norda.DAL.pdb
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.DAL\obj\Debug\net7.0\Norda.DAL.csproj.AssemblyReference.cache
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.DAL\obj\Debug\net7.0\Norda.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.DAL\obj\Debug\net7.0\Norda.DAL.AssemblyInfoInputs.cache
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.DAL\obj\Debug\net7.0\Norda.DAL.AssemblyInfo.cs
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.DAL\obj\Debug\net7.0\Norda.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.DAL\obj\Debug\net7.0\Norda.DAL.dll
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.DAL\obj\Debug\net7.0\refint\Norda.DAL.dll
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.DAL\obj\Debug\net7.0\Norda.DAL.pdb
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.DAL\obj\Debug\net7.0\Norda.DAL.genruntimeconfig.cache
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima.DAL\obj\Debug\net7.0\ref\Norda.DAL.dll

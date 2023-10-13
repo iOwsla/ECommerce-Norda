@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.WebAPI\\Norda.WebAPI.csproj": {}
+    "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.WebAPI\\Norda.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.WebAPI\\Norda.WebAPI.csproj": {
+    "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.WebAPI\\Norda.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.WebAPI\\Norda.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.WebAPI\\Norda.WebAPI.csproj",
         "projectName": "Norda.WebAPI",
-        "projectPath": "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.WebAPI\\Norda.WebAPI.csproj",
+        "projectPath": "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.WebAPI\\Norda.WebAPI.csproj",
         "packagesPath": "C:\\Users\\Makdos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

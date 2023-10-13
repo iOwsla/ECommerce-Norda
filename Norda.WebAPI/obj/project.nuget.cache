@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iLW1/MSDp0fvlg14+Z4AeY3bYhJU+9fNUy03NtwcTX5ZV6uistNwRSHO92me1eA4LM7Uil7PQLavt/w3v8/N0w==",
+  "dgSpecHash": "calnD6ro4Ywlt+lEKeX38VwMC0XIKpU8vgAw5ui9UjU9JGrJqDJLhDV59Uv/neqviq/plGTAVruUmLBejQrFvg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.WebAPI\\Norda.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.WebAPI\\Norda.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Makdos\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.9\\microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",
     "C:\\Users\\Makdos\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

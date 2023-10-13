@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.WebUI\\Norda.WebUI.csproj": {}
+    "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.WebUI\\Norda.WebUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.BL\\Norda.BL.csproj": {
+    "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.BL\\Norda.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.BL\\Norda.BL.csproj",
+        "projectUniqueName": "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.BL\\Norda.BL.csproj",
         "projectName": "Norda.BL",
-        "projectPath": "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.BL\\Norda.BL.csproj",
+        "projectPath": "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.BL\\Norda.BL.csproj",
         "packagesPath": "C:\\Users\\Makdos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.BL\\obj\\",
+        "outputPath": "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.DAL\\Norda.DAL.csproj": {
-                "projectPath": "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.DAL\\Norda.DAL.csproj"
+              "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.DAL\\Norda.DAL.csproj": {
+                "projectPath": "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.DAL\\Norda.DAL.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.DAL\\Norda.DAL.csproj": {
+    "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.DAL\\Norda.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.DAL\\Norda.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.DAL\\Norda.DAL.csproj",
         "projectName": "Norda.DAL",
-        "projectPath": "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.DAL\\Norda.DAL.csproj",
+        "projectPath": "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.DAL\\Norda.DAL.csproj",
         "packagesPath": "C:\\Users\\Makdos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.DAL\\obj\\",
+        "outputPath": "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -152,14 +152,14 @@
         }
       }
     },
-    "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.WebUI\\Norda.WebUI.csproj": {
+    "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.WebUI\\Norda.WebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.WebUI\\Norda.WebUI.csproj",
+        "projectUniqueName": "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.WebUI\\Norda.WebUI.csproj",
         "projectName": "Norda.WebUI",
-        "projectPath": "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.WebUI\\Norda.WebUI.csproj",
+        "projectPath": "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.WebUI\\Norda.WebUI.csproj",
         "packagesPath": "C:\\Users\\Makdos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.WebUI\\obj\\",
+        "outputPath": "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.WebUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -181,11 +181,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.BL\\Norda.BL.csproj": {
-                "projectPath": "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.BL\\Norda.BL.csproj"
+              "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.BL\\Norda.BL.csproj": {
+                "projectPath": "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.BL\\Norda.BL.csproj"
               },
-              "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.DAL\\Norda.DAL.csproj": {
-                "projectPath": "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.DAL\\Norda.DAL.csproj"
+              "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.DAL\\Norda.DAL.csproj": {
+                "projectPath": "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.DAL\\Norda.DAL.csproj"
               }
             }
           }

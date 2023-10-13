@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7N0tG/2E16UqWeR48VjAJQoucaUTvJpL3wVKde5tlbaGBHxQ2PtJjgjBu4ELZqvnyiQmKH5CAzT6lRqceqdTmw==",
+  "dgSpecHash": "dnLTu8nt9e+J51gJudBObkZMv+1jmtk+/P0GJKZqGHG9J1e3diTqO8cIKsK58cuGCrnF0uoTlieeW5oUaDz6PQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.BL\\Norda.BL.csproj",
+  "projectFilePath": "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.BL\\Norda.BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Makdos\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Makdos\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

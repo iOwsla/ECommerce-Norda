@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.DAL\\Norda.DAL.csproj": {}
+    "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.DAL\\Norda.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.DAL\\Norda.DAL.csproj": {
+    "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.DAL\\Norda.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.DAL\\Norda.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.DAL\\Norda.DAL.csproj",
         "projectName": "Norda.DAL",
-        "projectPath": "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.DAL\\Norda.DAL.csproj",
+        "projectPath": "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.DAL\\Norda.DAL.csproj",
         "packagesPath": "C:\\Users\\Makdos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Makdos\\Documents\\GitHub\\divisima\\Norda.DAL\\obj\\",
+        "outputPath": "C:\\Users\\Makdos\\Documents\\GitHub\\ECommerce-Norda\\Norda.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

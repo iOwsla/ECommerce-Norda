@@ -6,6 +6,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Areas\admin\Data\**" />
+    <Compile Remove="Areas\admin\Models\**" />
+    <Content Remove="Areas\admin\Data\**" />
+    <Content Remove="Areas\admin\Models\**" />
+    <EmbeddedResource Remove="Areas\admin\Data\**" />
+    <EmbeddedResource Remove="Areas\admin\Models\**" />
+    <None Remove="Areas\admin\Data\**" />
+    <None Remove="Areas\admin\Models\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.10">
       <PrivateAssets>all</PrivateAssets>
@@ -22,11 +33,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Divisima.BL\Divisima.BL.csproj" />
     <ProjectReference Include="..\Divisima.DAL\Divisima.DAL.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Areas\admin\Data\" />
-    <Folder Include="Areas\admin\Models\" />
   </ItemGroup>
 
   <ItemGroup>

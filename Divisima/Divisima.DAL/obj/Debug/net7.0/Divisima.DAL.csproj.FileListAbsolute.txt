@@ -12,3 +12,17 @@ C:\Users\Administrator\Desktop\Github\divisima\Divisima\Divisima.DAL\obj\Debug\n
 C:\Users\Administrator\Desktop\Github\divisima\Divisima\Divisima.DAL\obj\Debug\net7.0\Divisima.DAL.pdb
 C:\Users\Administrator\Desktop\Github\divisima\Divisima\Divisima.DAL\obj\Debug\net7.0\Divisima.DAL.genruntimeconfig.cache
 C:\Users\Administrator\Desktop\Github\divisima\Divisima\Divisima.DAL\obj\Debug\net7.0\ref\Divisima.DAL.dll
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima\Divisima.DAL\bin\Debug\net7.0\Divisima.DAL.deps.json
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima\Divisima.DAL\bin\Debug\net7.0\Divisima.DAL.runtimeconfig.json
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima\Divisima.DAL\bin\Debug\net7.0\Divisima.DAL.dll
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima\Divisima.DAL\bin\Debug\net7.0\Divisima.DAL.pdb
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima\Divisima.DAL\obj\Debug\net7.0\Divisima.DAL.csproj.AssemblyReference.cache
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima\Divisima.DAL\obj\Debug\net7.0\Divisima.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima\Divisima.DAL\obj\Debug\net7.0\Divisima.DAL.AssemblyInfoInputs.cache
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima\Divisima.DAL\obj\Debug\net7.0\Divisima.DAL.AssemblyInfo.cs
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima\Divisima.DAL\obj\Debug\net7.0\Divisima.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima\Divisima.DAL\obj\Debug\net7.0\Divisima.DAL.dll
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima\Divisima.DAL\obj\Debug\net7.0\refint\Divisima.DAL.dll
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima\Divisima.DAL\obj\Debug\net7.0\Divisima.DAL.pdb
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima\Divisima.DAL\obj\Debug\net7.0\Divisima.DAL.genruntimeconfig.cache
+C:\Users\Makdos\Documents\GitHub\divisima\Divisima\Divisima.DAL\obj\Debug\net7.0\ref\Divisima.DAL.dll

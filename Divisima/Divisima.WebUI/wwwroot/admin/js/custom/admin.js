@@ -24,6 +24,21 @@ function deleteSlide() {
     });
 }
 
+function deleteProductPicture() {
+    $.ajax({
+        type: "POST",
+        url: "/admin/productPicture/delete",
+        data: { id: silinecekID },
+        success: function (result) {
+            if (result == "Ok") {
+                location.href = "/admin/productPicture";
+            } else {
+                alert(result);
+            };
+        }
+    });
+}
+
 $(".brandDelete").click(function () {
     silinecekID = $(this).attr("rowID");
     $("#modalDelete").modal("show");

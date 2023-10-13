@@ -150,13 +150,10 @@ namespace Divisima.DAL.Migrations
 
             modelBuilder.Entity("Divisima.DAL.Entities.ProductCategory", b =>
                 {
-                    b.Property<int?>("ProductID")
+                    b.Property<int>("ProductID")
                         .HasColumnType("int");
 
-                    b.Property<int?>("CategoryID")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("ID")
+                    b.Property<int>("CategoryID")
                         .HasColumnType("int");
 
                     b.HasKey("ProductID", "CategoryID");
@@ -258,13 +255,13 @@ namespace Divisima.DAL.Migrations
                     b.HasOne("Divisima.DAL.Entities.Category", "Category")
                         .WithMany("ProductCategories")
                         .HasForeignKey("CategoryID")
-                        .OnDelete(DeleteBehavior.SetNull)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Divisima.DAL.Entities.Product", "Product")
                         .WithMany("ProductCategories")
                         .HasForeignKey("ProductID")
-                        .OnDelete(DeleteBehavior.SetNull)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Category");

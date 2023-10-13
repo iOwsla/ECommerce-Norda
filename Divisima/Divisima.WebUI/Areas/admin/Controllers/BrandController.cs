@@ -74,7 +74,7 @@ public class BrandController : Controller
 		}
 		catch (Exception ex)
 		{
-
+			
 			return ex.Message;
 		}
 

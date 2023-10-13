@@ -29,15 +29,7 @@ namespace Divisima.DAL.Contexts
             // fluent api
 
             //çoka çok ilişkilendirme
-            modelBuilder.Entity<ProductCategory>().HasKey(x => new
-            {
-                x.ProductID,
-                x.CategoryID
-            }); // Kompozit anahtar
-
-            // bire çok ilişki ile ara kategoriyle bağlantı kurup orada çoka çok ilişki kavramını yapmak.
-            modelBuilder.Entity<ProductCategory>().HasOne(x => x.Product).WithMany(x => x.ProductCategories).HasForeignKey(x => x.ProductID).OnDelete(DeleteBehavior.SetNull);
-            modelBuilder.Entity<ProductCategory>().HasOne(x => x.Category).WithMany(x => x.ProductCategories).HasForeignKey(x => x.CategoryID).OnDelete(DeleteBehavior.SetNull);
+            modelBuilder.Entity<ProductCategory>().HasKey(x => new { x.ProductID, x.CategoryID });
 
             // Herhangi bir marka silinirse o markaya ait tüm ürünlerin silinmesini önlemek için yapılıyor.
             modelBuilder.Entity<Product>().HasOne(x => x.Brand).WithMany(x => x.Products).OnDelete(DeleteBehavior.SetNull);

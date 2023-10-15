@@ -92,7 +92,6 @@ public class ProductPictureController : Controller
 			{
 				await repoProductPicture.Delete(productPicture);
 			}
-
 			return "Ok";
 		}
 		catch (Exception ex)

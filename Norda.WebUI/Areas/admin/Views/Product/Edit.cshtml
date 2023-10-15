@@ -1,4 +1,4 @@
-﻿@model Product
+﻿@model ProductVM
 <form class="form d-flex flex-column flex-lg-row"
 	  method="post"
 	  enctype="multipart/form-data"
@@ -77,42 +77,66 @@
 				</div>
 
 			
+                <div class="mb-10 fv-row">
+					<label class="required form-label" asp-for="@Model.Product.Name"></label>
+					<input asp-for="@Model.Product.Name" class="form-control mb-2">
+					<span class="text-danger fs-7" asp-validation-for="@Model.Product.Name"></span>
+                </div>
+                
+                <div class="mb-10 fv-row">
+                    <label class="required form-label" asp-for="@Model.Product.BrandID"></label>
+                    <select asp-for="@Model.Product.BrandID" asp-items="@Model.Brands.Select(x => new SelectListItem
+                                                                        {
+                                                                            Text = x.Name,
+                                                                            Value = x.ID.ToString()
+                                                                        })" class="form-select" data-control="select2" data-placeholder="Select an option">
+                        <option value="">Bir Model Seçiniz</option>
+                    </select>
+                    <span class="text-danger fs-7" asp-validation-for="@Model.Product.Name"></span>
+                </div>
+                @if (Model.Categories.Any())
+                {
+                    <div class="mb-10 fv-row">
+                        <label class="required form-label" asp-for="@Model.Product.ProductCategories"></label>
+                        @for (int i = 0; i < Model.Categories.Count(); i++)
+                        {
+                            <div class="form-check mb-3">
+                                <input 
+                                    class="form-check-input" 
+                                    type="checkbox" id="flexCheckDefault-@Model.Categories[i].ID"
+                                    name="CategoryIDs" value="@Model.Categories[i].ID" />
+                                <label class="form-check-label" for="flexCheckDefault-@Model.Categories[i].ID">
+                                    @Model.Categories[i].Name
+                                </label>
+                            </div>
+                        }
+                        <span class="text-danger fs-7" asp-validation-for="@Model.Categories.Count"></span>
+                    </div>
+                }
 				<div class="mb-10 fv-row">
-					<label class="required form-label" asp-for="@Model.Name"></label>
-					<input asp-for="@Model.Name" class="form-control mb-2">
-					<span class="text-danger fs-7" asp-validation-for="@Model.Name"></span>
+					<label class="required form-label" asp-for="@Model.Product.Description"></label>
+					<textarea asp-for="@Model.Product.Description" class="form-control mb-2 editor"></textarea>
+					<span class="text-danger fs-7" asp-validation-for="@Model.Product.Description"></span>
 				</div>
 				<div class="mb-10 fv-row">
-					<label class="required form-label" asp-for="@Model.BrandID"></label>
-					<select asp-for="@Model.BrandID" asp-items="@ViewBag.Brands" class="form-select" data-control="select2" data-placeholder="Select an option">
-						<option value="">Bir Model Seçiniz</option>
-					</select>
-					<span class="text-danger fs-7" asp-validation-for="@Model.Name"></span>
+					<label class="required form-label" asp-for="@Model.Product.Detail"></label>
+					<textarea asp-for="@Model.Product.Detail" class="form-control mb-2 editor"></textarea>
+					<span class="text-danger fs-7" asp-validation-for="@Model.Product.Detail"></span>
 				</div>
 				<div class="mb-10 fv-row">
-					<label class="required form-label" asp-for="@Model.Description"></label>
-					<textarea asp-for="@Model.Description" class="form-control mb-2 editor"></textarea>
-					<span class="text-danger fs-7" asp-validation-for="@Model.Description"></span>
+					<label class="required form-label" asp-for="@Model.Product.Price"></label>
+					<input asp-for="@Model.Product.Price" class="form-control mb-2" />
+					<span class="text-danger fs-7" asp-validation-for="@Model.Product.Price"></span>
 				</div>
 				<div class="mb-10 fv-row">
-					<label class="required form-label" asp-for="@Model.Detail"></label>
-					<textarea asp-for="@Model.Detail" class="form-control mb-2 editor"></textarea>
-					<span class="text-danger fs-7" asp-validation-for="@Model.Detail"></span>
+					<label class="required form-label" asp-for="@Model.Product.Stock"></label>
+					<input asp-for="@Model.Product.Stock" class="form-control mb-2" />
+					<span class="text-danger fs-7" asp-validation-for="@Model.Product.Stock"></span>
 				</div>
 				<div class="mb-10 fv-row">
-					<label class="required form-label" asp-for="@Model.Price"></label>
-					<input asp-for="@Model.Price" class="form-control mb-2" />
-					<span class="text-danger fs-7" asp-validation-for="@Model.Price"></span>
-				</div>
-				<div class="mb-10 fv-row">
-					<label class="required form-label" asp-for="@Model.Stock"></label>
-					<input asp-for="@Model.Stock" class="form-control mb-2" />
-					<span class="text-danger fs-7" asp-validation-for="@Model.Stock"></span>
-				</div>
-				<div class="mb-10 fv-row">
-					<label class="required form-label" asp-for="@Model.DisplayIndex"></label>
-					<input asp-for="@Model.DisplayIndex" class="form-control mb-2">
-					<span class="text-danger fs-7" asp-validation-for="@Model.DisplayIndex"></span>
+					<label class="required form-label" asp-for="@Model.Product.DisplayIndex"></label>
+					<input asp-for="@Model.Product.DisplayIndex" class="form-control mb-2">
+					<span class="text-danger fs-7" asp-validation-for="@Model.Product.DisplayIndex"></span>
 				</div>
 			</div>
 			<!--end::Card header-->

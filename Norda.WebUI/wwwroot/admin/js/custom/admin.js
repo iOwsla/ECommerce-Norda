@@ -2,78 +2,34 @@
     $(".editor").each(function () {
         CKEDITOR.replace($(this).attr("id"));
     });
+
+    // Silme işlemi için genel bir işleyici fonksiyon
+    function genericDeleteHandler(buttonClass, apiUrl, redirectUrl) {
+        $(buttonClass).click(function () {
+            const rowID = $(this).attr("rowID");
+            const productID = $(this).attr("productID"); // Sadece ürün resimleri için
+            $("#modalDelete").modal("show");
+            $("#confirmDeleteButton").off('click').click(function () {
+                $.ajax({
+                    type: "POST",
+                    url: apiUrl + '/' + rowID,
+                    data: { id: rowID },
+                    success: function (result) {
+                        if (result == "Ok") {
+                            location.href = redirectUrl + (productID ? '/' + productID : '');
+                        } else {
+                            alert(result);
+                        }
+                    }
+                });
+            });
+        });
+    }
+
+    // Silme işleyicilerini oluşturmak için genel fonksiyonu kullanma
+    genericDeleteHandler(".slideDelete", "/admin/slide/delete", "/admin/slide");
+    genericDeleteHandler(".brandDelete", "/admin/brand/delete", "/admin/brand");
+    genericDeleteHandler(".categoryDelete", "/admin/category/delete", "/admin/category");
+    genericDeleteHandler(".productDelete", "/admin/product/delete", "/admin/product");
+    genericDeleteHandler(".productPictureDelete", "/admin/productPicture/delete", "/admin/productPicture");
 });
-
-var silinecekID;
-$(".slideDelete").click(function () {
-    silinecekID = $(this).attr("rowID");
-    $("#modalDelete").modal("show");
-});
-function deleteSlide() {
-    $.ajax({
-        type: "POST",
-        url: "/admin/slide/delete",
-        data: { id: silinecekID },
-        success: function (result) {
-            if (result == "Ok") {
-                location.href = "/admin/slide";
-            } else {
-                alert(result);
-            };
-        }
-    });
-}
-
-function deleteProductPicture() {
-    $.ajax({
-        type: "POST",
-        url: "/admin/productPicture/delete",
-        data: { id: silinecekID },
-        success: function (result) {
-            if (result == "Ok") {
-                location.href = "/admin/productPicture";
-            } else {
-                alert(result);
-            };
-        }
-    });
-}
-
-$(".brandDelete").click(function () {
-    silinecekID = $(this).attr("rowID");
-    $("#modalDelete").modal("show");
-});
-function deleteBrand() {
-    $.ajax({
-        type: "POST",
-        url: "/admin/brand/delete",
-        data: { id: silinecekID },
-        success: function (result) {
-            if (result == "Ok") {
-                location.href = "/admin/brand";
-            } else {
-                alert(result);
-            };
-        }
-    });
-}
-
-$(".categoryDelete").click(function () {
-    silinecekID = $(this).attr("rowID");
-    $("#modalDelete").modal("show");
-});
-
-function deleteCategory() {
-    $.ajax({
-        type: "POST",
-        url: "/admin/category/delete",
-        data: { id: silinecekID },
-        success: function (result) {
-            if (result == "Ok") {
-                location.href = "/admin/category";
-            } else {
-                alert(result);
-            };
-        }
-    });
-}

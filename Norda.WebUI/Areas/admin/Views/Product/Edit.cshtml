@@ -1,95 +1,39 @@
 ﻿@model ProductVM
 <form class="form d-flex flex-column flex-lg-row"
-	  method="post"
-	  enctype="multipart/form-data"
-	  asp-controller="Product"
-	  asp-action="Edit"
-	  asp-area="admin"
->
+      method="post"
+      enctype="multipart/form-data"
+      asp-controller="Product"
+      asp-action="Edit"
+      asp-area="admin"
+      asp-route-id="@Model.Product.ID"
+      >
 
-	<!--begin::Main column-->
-	<div class="d-flex flex-column flex-row-fluid gap-7 gap-lg-10">
-		<!--begin::General options-->
-		<div class="card card-flush py-4">
-			<!--begin::Card header-->
-			<div class="card-header">
-				<div class="card-title">
-					<h2>General</h2>
-				</div>
-			</div>
-			<!--end::Card header-->
-			<!--begin::Card body-->
-			<div class="card-body pt-0">
-
-				<div class="mb-10 fv-row">
-					<!--begin::Image input-->
-					<!--begin::Image input placeholder-->
-					<style>
-						.image-input-placeholder {
-							background-image: url('/admin/media/svg/files/blank-image.svg');
-						}
-
-						[data-bs-theme="dark"] .image-input-placeholder {
-							background-image: url('/admin/media/svg/files/blank-image-dark.svg');
-						}
-					</style>
-					<!--end::Image input placeholder-->
-					<!--begin::Image input-->
-					<div class="image-input image-input-empty image-input-outline image-input-placeholder mb-3" data-kt-image-input="true">
-						<!--begin::Preview existing avatar-->
-						<div class="image-input-wrapper w-150px h-150px"></div>
-						<!--end::Preview existing avatar-->
-						<!--begin::Label-->
-						<label class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="change" data-bs-toggle="tooltip" title="Change avatar">
-							<!--begin::Icon-->
-							<i class="ki-duotone ki-pencil fs-7">
-								<span class="path1"></span>
-								<span class="path2"></span>
-							</i>
-							<!--end::Icon-->
-							<!--begin::Inputs-->
-							<input type="file"  accept=".png, .jpg, .jpeg" />
-							<input type="hidden" name="avatar_remove" />
-							<!--end::Inputs-->
-						</label>
-						<!--end::Label-->
-						<!--begin::Cancel-->
-						<span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="cancel" data-bs-toggle="tooltip" title="Cancel avatar">
-							<i class="ki-duotone ki-cross fs-2">
-								<span class="path1"></span>
-								<span class="path2"></span>
-							</i>
-						</span>
-						<!--end::Cancel-->
-						<!--begin::Remove-->
-						<span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="remove" data-bs-toggle="tooltip" title="Remove avatar">
-							<i class="ki-duotone ki-cross fs-2">
-								<span class="path1"></span>
-								<span class="path2"></span>
-							</i>
-						</span>
-						<!--end::Remove-->
-					</div>
-					<!--end::Image input-->
-					<!--begin::Description-->
-					<div class="text-muted fs-7">Set the category thumbnail image. Only *.png, *.jpg and *.jpeg image files are accepted</div>
-					<!--end::Description-->
-				</div>
-
-			
-                <div class="mb-10 fv-row">
-					<label class="required form-label" asp-for="@Model.Product.Name"></label>
-					<input asp-for="@Model.Product.Name" class="form-control mb-2">
-					<span class="text-danger fs-7" asp-validation-for="@Model.Product.Name"></span>
+    <!--begin::Main column-->
+    <div class="d-flex flex-column flex-row-fluid gap-7 gap-lg-10">
+        <!--begin::General options-->
+        <div class="card card-flush py-4">
+            <!--begin::Card header-->
+            <div class="card-header">
+                <div class="card-title">
+                    <h2>General</h2>
                 </div>
-                
+            </div>
+            <!--end::Card header-->
+            <!--begin::Card body-->
+            <div class="card-body pt-0">
+                <div class="mb-10 fv-row">
+                    <label class="required form-label" asp-for="@Model.Product.Name"></label>
+                    <input asp-for="@Model.Product.Name" class="form-control mb-2">
+                    <span class="text-danger fs-7" asp-validation-for="@Model.Product.Name"></span>
+                </div>
+
                 <div class="mb-10 fv-row">
                     <label class="required form-label" asp-for="@Model.Product.BrandID"></label>
                     <select asp-for="@Model.Product.BrandID" asp-items="@Model.Brands.Select(x => new SelectListItem
-                                                                        {
-                                                                            Text = x.Name,
-                                                                            Value = x.ID.ToString()
-                                                                        })" class="form-select" data-control="select2" data-placeholder="Select an option">
+                     {
+                       Text = x.Name,
+                       Value = x.ID.ToString()
+                      })" class="form-select" data-control="select2" data-placeholder="Select an option">
                         <option value="">Bir Model Seçiniz</option>
                     </select>
                     <span class="text-danger fs-7" asp-validation-for="@Model.Product.Name"></span>
@@ -102,9 +46,12 @@
                         {
                             <div class="form-check mb-3">
                                 <input 
-                                    class="form-check-input" 
-                                    type="checkbox" id="flexCheckDefault-@Model.Categories[i].ID"
-                                    name="CategoryIDs" value="@Model.Categories[i].ID" />
+                                    class="form-check-input"
+                                       type="checkbox" 
+                                       id="flexCheckDefault-@Model.Categories[i].ID"
+                                       name="CategoryIDs" 
+                                       value="@Model.Categories[i].ID"
+                                @(Model.Product.ProductCategories.Select(pc => pc.CategoryID).Contains(Model.Categories[i].ID) ? "checked" : "") />
                                 <label class="form-check-label" for="flexCheckDefault-@Model.Categories[i].ID">
                                     @Model.Categories[i].Name
                                 </label>
@@ -113,46 +60,46 @@
                         <span class="text-danger fs-7" asp-validation-for="@Model.Categories.Count"></span>
                     </div>
                 }
-				<div class="mb-10 fv-row">
-					<label class="required form-label" asp-for="@Model.Product.Description"></label>
-					<textarea asp-for="@Model.Product.Description" class="form-control mb-2 editor"></textarea>
-					<span class="text-danger fs-7" asp-validation-for="@Model.Product.Description"></span>
-				</div>
-				<div class="mb-10 fv-row">
-					<label class="required form-label" asp-for="@Model.Product.Detail"></label>
-					<textarea asp-for="@Model.Product.Detail" class="form-control mb-2 editor"></textarea>
-					<span class="text-danger fs-7" asp-validation-for="@Model.Product.Detail"></span>
-				</div>
-				<div class="mb-10 fv-row">
-					<label class="required form-label" asp-for="@Model.Product.Price"></label>
-					<input asp-for="@Model.Product.Price" class="form-control mb-2" />
-					<span class="text-danger fs-7" asp-validation-for="@Model.Product.Price"></span>
-				</div>
-				<div class="mb-10 fv-row">
-					<label class="required form-label" asp-for="@Model.Product.Stock"></label>
-					<input asp-for="@Model.Product.Stock" class="form-control mb-2" />
-					<span class="text-danger fs-7" asp-validation-for="@Model.Product.Stock"></span>
-				</div>
-				<div class="mb-10 fv-row">
-					<label class="required form-label" asp-for="@Model.Product.DisplayIndex"></label>
-					<input asp-for="@Model.Product.DisplayIndex" class="form-control mb-2">
-					<span class="text-danger fs-7" asp-validation-for="@Model.Product.DisplayIndex"></span>
-				</div>
-			</div>
-			<!--end::Card header-->
-		</div>
-		<!--end::General options-->
+                <div class="mb-10 fv-row">
+                    <label class="required form-label" asp-for="@Model.Product.Description"></label>
+                    <textarea asp-for="@Model.Product.Description" class="form-control mb-2 editor"></textarea>
+                    <span class="text-danger fs-7" asp-validation-for="@Model.Product.Description"></span>
+                </div>
+                <div class="mb-10 fv-row">
+                    <label class="required form-label" asp-for="@Model.Product.Detail"></label>
+                    <textarea asp-for="@Model.Product.Detail" class="form-control mb-2 editor"></textarea>
+                    <span class="text-danger fs-7" asp-validation-for="@Model.Product.Detail"></span>
+                </div>
+                <div class="mb-10 fv-row">
+                    <label class="required form-label" asp-for="@Model.Product.Price"></label>
+                    <input asp-for="@Model.Product.Price" class="form-control mb-2" />
+                    <span class="text-danger fs-7" asp-validation-for="@Model.Product.Price"></span>
+                </div>
+                <div class="mb-10 fv-row">
+                    <label class="required form-label" asp-for="@Model.Product.Stock"></label>
+                    <input asp-for="@Model.Product.Stock" class="form-control mb-2" />
+                    <span class="text-danger fs-7" asp-validation-for="@Model.Product.Stock"></span>
+                </div>
+                <div class="mb-10 fv-row">
+                    <label class="required form-label" asp-for="@Model.Product.DisplayIndex"></label>
+                    <input asp-for="@Model.Product.DisplayIndex" class="form-control mb-2">
+                    <span class="text-danger fs-7" asp-validation-for="@Model.Product.DisplayIndex"></span>
+                </div>
+            </div>
+            <!--end::Card header-->
+        </div>
+        <!--end::General options-->
 
-		<div class="d-flex justify-content-end">
-			<!--begin::Button-->
-			<a asp-area="admin" asp-controller="Product" asp-action="Index" class="btn btn-light me-5">İptal</a>
-			<!--end::Button-->
-			<!--begin::Button-->
-			<button type="submit" class="btn btn-primary">
-				Güncelle
-			</button>
-			<!--end::Button-->
-		</div>
-	</div>
-	<!--end::Main column-->
+        <div class="d-flex justify-content-end">
+            <!--begin::Button-->
+            <a asp-area="admin" asp-controller="Product" asp-action="Index" class="btn btn-light me-5">İptal</a>
+            <!--end::Button-->
+            <!--begin::Button-->
+            <button type="submit" class="btn btn-primary">
+                Güncelle
+            </button>
+            <!--end::Button-->
+        </div>
+    </div>
+    <!--end::Main column-->
 </form>

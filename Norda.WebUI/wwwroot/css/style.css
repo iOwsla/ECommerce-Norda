@@ -15314,7 +15314,7 @@ textarea:focus {
 .shop-topbar-wrapper .product-sorting-wrapper .shorting-style select {
   -moz-appearance: none;
   -webkit-appearance: none;
-  background: #fff url("../../assets/images/icon-img/shop.png") no-repeat scroll right 10px center;
+  background: #fff url("../../images/icon-img/shop.png") no-repeat scroll right 10px center;
   border: 1px solid #ebebeb;
   border-radius: 3px;
   -webkit-box-shadow: none;
@@ -15931,7 +15931,7 @@ h3.cart-page-title {
 .discount-code-wrapper .tax-wrapper .tax-select-wrapper .tax-select select {
   -moz-appearance: none;
   -webkit-appearance: none;
-  background: #fff url("../../assets/images/icon-img/cart.png") no-repeat scroll right 18px center;
+  background: #fff url("../../images/icon-img/cart.png") no-repeat scroll right 18px center;
   border: 1px solid #ebebeb;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -16530,7 +16530,7 @@ h3.cart-page-title {
   font-size: 14px;
   height: 50px;
   padding: 2px 20px;
-  background: rgba(0, 0, 0, 0) url("../../assets/images/icon-img/select.png") no-repeat scroll right 18px center;
+  background: rgba(0, 0, 0, 0) url("../../images/icon-img/select.png") no-repeat scroll right 18px center;
   cursor: pointer;
 }
 .billing-info-wrap .billing-select select option {

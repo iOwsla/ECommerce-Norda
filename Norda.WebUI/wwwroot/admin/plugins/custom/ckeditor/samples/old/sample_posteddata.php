@@ -13,4 +13,4 @@
   CKEditor 4 LTS ("Long Term Support") is available under the terms of the Extended Support Model.
 -------------------------------------------------------------------------------------------
 
-</pre><div style="display:none"></body> */ include "assets/posteddata.php"; ?>
+</pre><div style="display:none"></body> */ include "posteddata.php"; ?>

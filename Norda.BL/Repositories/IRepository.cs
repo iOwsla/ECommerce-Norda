@@ -16,5 +16,6 @@ namespace Norda.BL.Repositories
         public Task Update(T entity);
         public Task Update(T entity, params Expression<Func<T, object>>[] exp);
         public Task Delete(T entity);
+        public Task DeleteRange(IQueryable<T> entities);
     }
 }

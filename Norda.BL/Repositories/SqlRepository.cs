@@ -29,7 +29,12 @@ namespace Norda.BL.Repositories
             await db.SaveChangesAsync();
         }
 
-        public IQueryable<T> GetAll()
+		public async Task DeleteRange(IQueryable<T> entities)
+		{
+			await Task.Run(() => { db.RemoveRange(entities); });
+		}
+
+		public IQueryable<T> GetAll()
         {
             return db.Set<T>();
         }
@@ -46,7 +51,7 @@ namespace Norda.BL.Repositories
 
         public async Task Update(T entity)
         {
-            db.Update(entity);
+            await Task.Run(() => { db.Update(entity); });
             await db.SaveChangesAsync();
         }
 

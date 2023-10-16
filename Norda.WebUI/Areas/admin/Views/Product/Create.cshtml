@@ -14,45 +14,11 @@
             </div>
             <div class="card-body pt-0">
                 <div class="mb-10 fv-row">
-                    <style>
-                        .image-input-placeholder {
-                            background-image: url('/admin/media/svg/files/blank-image.svg');
-                        }
-                        [data-bs-theme="dark"] .image-input-placeholder {
-                            background-image: url('/admin/media/svg/files/blank-image-dark.svg');
-                        }
-                    </style>
-                    <div class="image-input image-input-empty image-input-outline image-input-placeholder mb-3" data-kt-image-input="true">
-                        <div class="image-input-wrapper w-150px h-150px"></div>
-                        <label class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="change" data-bs-toggle="tooltip" title="Change avatar">
-                            <i class="ki-duotone ki-pencil fs-7">
-                                <span class="path1"></span>
-                                <span class="path2"></span>
-                            </i>
-                            <input type="file" accept=".png, .jpg, .jpeg" />
-                            <input type="hidden" name="avatar_remove" />
-                        </label>
-                        <span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="cancel" data-bs-toggle="tooltip" title="Cancel avatar">
-                            <i class="ki-duotone ki-cross fs-2">
-                                <span class="path1"></span>
-                                <span class="path2"></span>
-                            </i>
-                        </span>
-                        <span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="remove" data-bs-toggle="tooltip" title="Remove avatar">
-                            <i class="ki-duotone ki-cross fs-2">
-                                <span class="path1"></span>
-                                <span class="path2"></span>
-                            </i>
-                        </span>
-                    </div>
-                    <div class="text-muted fs-7">Set the category thumbnail image. Only *.png, *.jpg and *.jpeg image files are accepted</div>
-                </div>
-                <div class="mb-10 fv-row">
                     <label class="required form-label" asp-for="@Model.Product.Name"></label>
                     <input asp-for="@Model.Product.Name" class="form-control mb-2">
                     <span class="text-danger fs-7" asp-validation-for="@Model.Product.Name"></span>
                 </div>
-                
+
                 <div class="mb-10 fv-row">
                     <label class="required form-label" asp-for="@Model.Product.BrandID"></label>
                     <select asp-for="@Model.Product.BrandID" asp-items="@Model.Brands.Select(x => new SelectListItem
@@ -71,9 +37,8 @@
                         @for (int i = 0; i < Model.Categories.Count(); i++)
                         {
                             <div class="form-check mb-3">
-                                <input 
-                                    class="form-check-input" 
-                                    type="checkbox" id="flexCheckDefault-@Model.Categories[i].ID"
+                                <input class="form-check-input"
+                                       type="checkbox" id="flexCheckDefault-@Model.Categories[i].ID"
                                        name="CategoryIDs" value="@Model.Categories[i].ID" />
                                 <label class="form-check-label" for="flexCheckDefault-@Model.Categories[i].ID">
                                     @Model.Categories[i].Name

@@ -36,7 +36,7 @@ public class ProductController : Controller
         ViewBag.Title = "Product Yönetimi";
 
         // çoka çok ilişki varsa ThenInclude kullanılır.
-        return View(repoProduct.GetAll().Include(x => x.Brand).Include(i => i.ProductCategories).ThenInclude(i => i.Category));
+        return View(repoProduct.GetAll().Include(i => i.ProductPictures).Include(x => x.Brand).Include(i => i.ProductCategories).ThenInclude(i => i.Category));
     }
 
     [Route("/admin/product/create")]
@@ -74,10 +74,11 @@ public class ProductController : Controller
     {
 	    ProductVM productVM = new ProductVM
 	    {
-            Product = repoProduct.GetBy(x => x.ID == id),
+            
 		    Brands = repoBrand.GetAll().OrderBy(b => b.Name).ToList(),
-		    Categories = repoCategory.GetAll().OrderBy(b => b.Name).ToList()
-	    };
+		    Categories = repoCategory.GetAll().OrderBy(b => b.Name).ToList(),
+		    Product = repoProduct.GetAll().Include(p => p.ProductCategories).FirstOrDefault(p => p.ID == id)
+		};
 	    return View(productVM);
 	}
 
@@ -86,8 +87,10 @@ public class ProductController : Controller
     {
 
         await repoProduct.Update(model.Product);
-        if (model.CategoryIDs != null && model.CategoryIDs.Length > 0)
+        if (model.CategoryIDs.Length > 0)
         {
+            await repoProductCategory.DeleteRange(repoProductCategory.GetAll().Where(x => x.ProductID == model.Product.ID));
+
 	        for (int i = 0; i < model.CategoryIDs.Length; i++)
 	        {
 		        await repoProductCategory.Add(new ProductCategory

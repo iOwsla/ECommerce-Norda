@@ -48,13 +48,13 @@
                         <td>
                             <div class="d-flex align-items-center">
                                 <!--begin::Thumbnail-->
-                                <a href="../../demo1/dist/apps/ecommerce/catalog/edit-product.html" class="symbol symbol-50px">
-                                    <span class="symbol-label" style="background-image:url(assets/media//stock/ecommerce/1.gif);"></span>
+                                <a asp-area="admin" asp-controller="Product" asp-action="Edit" asp-route-id="@product.ID" class="symbol symbol-50px">
+                                    <span class="symbol-label" style="background-image:url(@(product.ProductPictures.Any() ? product.ProductPictures.First().Picture : ""));"></span>
                                 </a>
                                 <!--end::Thumbnail-->
                                 <div class="ms-5">
                                     <!--begin::Title-->
-                                    <a href="../../demo1/dist/apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary fs-5 fw-bold" data-kt-ecommerce-product-filter="product_name">@product.Name</a>
+                                    <a asp-area="admin" asp-controller="Product" asp-action="Edit" asp-route-id="@product.ID" class="text-gray-800 text-hover-primary fs-5 fw-bold" data-kt-ecommerce-product-filter="product_name">@product.Name</a>
                                     <!--end::Title-->
                                 </div>
                             </div>

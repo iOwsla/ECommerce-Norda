@@ -31,7 +31,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="contact-info-wrap">
                     <div class="footer-logo">
-                        <a href="#"><img src="/images/logo/logo.png" alt="logo"></a>
+                        <a asp-action="Index" asp-controller="Home"><img src="/images/logo/logo.png" alt="logo"></a>
                     </div>
                     <div class="single-contact-info">
                         <span>Our Location</span>
@@ -48,12 +48,13 @@
                     <div class="footer-menu">
                         <nav>
                             <ul>
-                                <li><a href="index.html">home</a></li>
-                                <li><a href="shop.html">Shop</a></li>
-                                <li><a href="shop.html">Product </a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <li><a href="blog.html">Blog.</a></li>
-                            </ul>
+                                <li>
+                                    <a asp-action="Index" asp-controller="Home">Anasayfa </a>
+                                </li>
+                                <li>
+                                    <a asp-action="Index" asp-controller="Product">Ürünler </a>
+                                </li>
+                               </ul>
                         </nav>
                     </div>
                     <div class="social-style-2 social-style-2-mrg">

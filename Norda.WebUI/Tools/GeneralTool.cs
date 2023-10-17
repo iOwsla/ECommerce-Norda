@@ -80,6 +80,16 @@ namespace Norda.WebUI.Tools
                 return "";
             }
         }
+
+        public static string UrlToString(string url)
+        {
+            string result = "";
+            if (url != null)
+            {
+                result = url.Replace(" ", "-").Replace("ı", "i").Replace("ö", "o").Replace("ü", "u").Replace("ş", "s").Replace("ğ", "g").Replace("ç", "c").Replace("İ", "i").Replace("Ö", "o").Replace("Ü", "u").Replace("Ş", "s").Replace("Ğ", "g").Replace("Ç", "c").ToLower();
+            }
+            return result;
+        }   
     }
 
 

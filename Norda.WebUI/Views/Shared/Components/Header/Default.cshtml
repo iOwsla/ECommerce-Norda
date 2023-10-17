@@ -16,28 +16,7 @@
                                 <div class="same-style same-style-border track-order">
                                     <a href="order-tracking.html">Track Your Order</a>
                                 </div>
-                                <div class="same-style same-style-border language-wrap">
-                                    <a class="language-dropdown-active" href="#">English <i class="icon-arrow-down"></i></a>
-                                    <div class="language-dropdown">
-                                        <ul>
-                                            <li><a href="#">English</a></li>
-                                            <li><a href="#">French</a></li>
-                                            <li><a href="#">German</a></li>
-                                            <li><a href="#">Spanish</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="same-style same-style-border currency-wrap">
-                                    <a class="currency-dropdown-active" href="#">US Dollar <i class="icon-arrow-down"></i></a>
-                                    <div class="currency-dropdown">
-                                        <ul>
-                                            <li><a href="#">USD</a></li>
-                                            <li><a href="#">EUR</a></li>
-                                            <li><a href="#">Real</a></li>
-                                            <li><a href="#">BDT</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                
                             </div>
                             <div class="social-style-1 social-style-1-mrg">
                                 <a href="#"><i class="icon-social-twitter"></i></a>
@@ -54,7 +33,7 @@
                 <div class="row align-items-center">
                     <div class="col-xl-2 col-lg-2">
                         <div class="logo">
-                            <a href="index.html"><img src="/images/logo/logo.png" alt="logo"></a>
+                            <a asp-action="Index" asp-controller="Home"><img src="/images/logo/logo.png" alt="logo"></a>
                         </div>
                     </div>
                     <div class="col-xl-8 col-lg-7">
@@ -62,8 +41,10 @@
                             <nav>
                                 <ul>
                                     <li>
-                                        <a href="index.html">Anasayfa </a>
-
+                                        <a asp-action="Index" asp-controller="Home">Anasayfa </a>
+                                    </li>
+                                    <li>
+                                        <a asp-action="Index" asp-controller="Product">Ürünler </a>
                                     </li>
                                     @foreach (Category category in @Model.Categories.Where(x => x.ParentID == null))
                                     {
@@ -100,21 +81,7 @@
                     </div>
                     <div class="col-xl-2 col-lg-3">
                         <div class="header-action header-action-flex header-action-mrg-right">
-                            <div class="same-style-2 header-search-1">
-                                <a class="search-toggle" href="#">
-                                    <i class="icon-magnifier s-open"></i>
-                                    <i class="icon_close s-close"></i>
-                                </a>
-                                <div class="search-wrap-1">
-                                    <form action="#">
-                                        <input placeholder="Search products…" type="text">
-                                        <button class="button-search"><i class="icon-magnifier"></i></button>
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="same-style-2">
-                                <a href="login-register.html"><i class="icon-user"></i></a>
-                            </div>
+                            
                             <div class="same-style-2">
                                 <a href="wishlist.html"><i class="icon-heart"></i><span class="pro-count red">03</span></a>
                             </div>
@@ -132,16 +99,13 @@
             <div class="row align-items-center">
                 <div class="col-5">
                     <div class="mobile-logo">
-                        <a href="index.html">
+                        <a asp-action="Index" asp-controller="Home">
                             <img alt="" src="/images/logo/logo.png">
                         </a>
                     </div>
                 </div>
                 <div class="col-7">
                     <div class="header-action header-action-flex">
-                        <div class="same-style-2">
-                            <a href="login-register.html"><i class="icon-user"></i></a>
-                        </div>
                         <div class="same-style-2">
                             <a href="wishlist.html"><i class="icon-heart"></i><span class="pro-count red">03</span></a>
                         </div>
@@ -169,20 +133,17 @@
             <div class="header-offer-wrap mobile-header-padding-border-4">
                 <p><i class="icon-paper-plane"></i> FREE SHIPPING world wide for all orders over <span>$199</span></p>
             </div>
-            <div class="mobile-search mobile-header-padding-border-1">
-                <form class="search-form" action="#">
-                    <input type="text" placeholder="Search here…">
-                    <button class="button-search"><i class="icon-magnifier"></i></button>
-                </form>
-            </div>
+            
             <div class="mobile-menu-wrap mobile-header-padding-border-2">
                 <!-- mobile menu start -->
                 <nav>
                     <ul class="mobile-menu">
                         <li class="menu-item-has-children">
-                            <a href="index.html">Anasayfa</a>
+                            <a asp-action="Index" asp-controller="Home">Anasayfa </a>
                         </li>
-                        
+                        <li class="menu-item-has-children">
+                            <a asp-action="Index" asp-controller="Product">Ürünler </a>
+                        </li>
                         @foreach (Category category in @Model.Categories.Where(x => x.ParentID == null))
                         {
                             <li class="menu-item-has-children ">
@@ -219,28 +180,6 @@
             <div class="mobile-header-info-wrap mobile-header-padding-border-3">
                 <div class="single-mobile-header-info">
                     <a href="order-tracking.html"><i class="lastudioicon-pin-3-2"></i> Track Your Order </a>
-                </div>
-                <div class="single-mobile-header-info">
-                    <a class="mobile-language-active" href="#">Language <span><i class="icon-arrow-down"></i></span></a>
-                    <div class="lang-curr-dropdown lang-dropdown-active">
-                        <ul>
-                            <li><a href="#">English</a></li>
-                            <li><a href="#">French</a></li>
-                            <li><a href="#">German</a></li>
-                            <li><a href="#">Spanish</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="single-mobile-header-info">
-                    <a class="mobile-currency-active" href="#">Currency <span><i class="icon-arrow-down"></i></span></a>
-                    <div class="lang-curr-dropdown curr-dropdown-active">
-                        <ul>
-                            <li><a href="#">USD</a></li>
-                            <li><a href="#">EUR</a></li>
-                            <li><a href="#">Real</a></li>
-                            <li><a href="#">BDT</a></li>
-                        </ul>
-                    </div>
                 </div>
             </div>
             <div class="mobile-contact-info mobile-header-padding-border-4">

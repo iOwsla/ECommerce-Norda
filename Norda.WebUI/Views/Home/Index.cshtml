@@ -122,39 +122,7 @@
                 <div class="row">
                     @foreach (Product product in Model.BestSalesProducts)
                     {
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div class="single-product-wrap mb-35">
-                                <div class="product-img product-img-zoom mb-20">
-                                    <a href="product-details.html">
-                                        @if (product.ProductPictures.Any())
-                                        {
-                                            <img src="@product.ProductPictures.First().Picture" alt="@product.ProductPictures.First().Name" />
-                                        }
-                                        else
-                                        {
-                                            <img src="/images/product/product-1.jpg" alt="Default Image" />
-                                        }
-                                    </a>
-                                    <div class="product-action-wrap">
-                                        <div class="product-action-left">
-                                            <button><i class="icon-basket-loaded"></i>Sepete Ekle</button>
-                                        </div>
-                                       
-                                    </div>
-                                </div>
-                                <div class="product-content-wrap">
-                                    <div class="product-content-left">
-                                        <h4><a href="product-details.html">@product.Name</a></h4>
-                                        <div class="product-price">
-                                            <span>$@product.Price</span>
-                                        </div>
-                                    </div>
-                                    <div class="product-content-right tooltip-style">
-                                        <button class="font-inc"><i class="icon-heart"></i><span>Favori</span></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <partial name="_ProductPartial" model="product"></partial>
                     }
                 </div>
             </div>
@@ -162,39 +130,7 @@
                 <div class="row">
                     @foreach (Product product in Model.LatestProducts)
                     {
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div class="single-product-wrap mb-35">
-                                <div class="product-img product-img-zoom mb-20">
-                                    <a href="product-details.html">
-                                        @if (product.ProductPictures.Any())
-                                        {
-                                            <img src="@product.ProductPictures.First().Picture" alt="@product.ProductPictures.First().Name" />
-                                        }
-                                        else
-                                        {
-                                            <img src="/images/product/product-1.jpg" alt="Default Image" />
-                                        }
-                                    </a>
-                                    <div class="product-action-wrap">
-                                        <div class="product-action-left">
-                                            <button><i class="icon-basket-loaded"></i>Sepete Ekle</button>
-                                        </div>
-                                       
-                                    </div>
-                                </div>
-                                <div class="product-content-wrap">
-                                    <div class="product-content-left">
-                                        <h4><a href="product-details.html">@product.Name</a></h4>
-                                        <div class="product-price">
-                                            <span>$@product.Price</span>
-                                        </div>
-                                    </div>
-                                    <div class="product-content-right tooltip-style">
-                                        <button class="font-inc"><i class="icon-heart"></i><span>Favori</span></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <partial name="_ProductPartial" model="product"></partial>
                     }
                 </div>
             </div>
@@ -202,39 +138,7 @@
                 <div class="row">
                     @foreach (Product product in Model.Products)
                     {
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div class="single-product-wrap mb-35">
-                                <div class="product-img product-img-zoom mb-20">
-                                    <a href="product-details.html">
-                                        @if (product.ProductPictures.Any())
-                                        {
-                                            <img src="@product.ProductPictures.First().Picture" alt="@product.ProductPictures.First().Name" />
-                                        }
-                                        else
-                                        {
-                                            <img src="/images/product/product-1.jpg" alt="Default Image" />
-                                        }
-                                    </a>
-                                    <div class="product-action-wrap">
-                                        <div class="product-action-left">
-                                            <button><i class="icon-basket-loaded"></i>Sepete Ekle</button>
-                                        </div>
-                                       
-                                    </div>
-                                </div>
-                                <div class="product-content-wrap">
-                                    <div class="product-content-left">
-                                        <h4><a href="product-details.html">@product.Name</a></h4>
-                                        <div class="product-price">
-                                            <span>$@product.Price</span>
-                                        </div>
-                                    </div>
-                                    <div class="product-content-right tooltip-style">
-                                        <button class="font-inc"><i class="icon-heart"></i><span>Favori</span></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <partial name="_ProductPartial" model="product"></partial>
                     }
                 </div>
             </div>

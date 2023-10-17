@@ -28,7 +28,7 @@
                             <label>View :</label>
 
                             <form>
-                                <select id="selectBox" onchange="redirectToQuery();">
+                                <select id="selectBox">
                                     <option value="20">20</option>
                                     <option value="23">23</option>
                                     <option value="30">30</option>
@@ -242,19 +242,3 @@
         </div>
     </div>
 </div>
-
-<script>
-    function redirectToQuery() {
-        const selectedItem = document.getElementById('selectBox');
-        const selectedOption = selectedItem.options[selectedItem.selectedIndex];
-
-        for (let option of selectedItem.options) {
-            option.removeAttribute('selected');
-        }
-
-        selectedOption.setAttribute('selected', '');
-
-        const selectedValue = selectedItem.value;
-        window.location.href = window.location.href + `&view=${selectedValue}`;
-    }
-</script>

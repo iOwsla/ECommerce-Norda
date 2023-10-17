@@ -48,6 +48,7 @@ namespace Norda.WebUI.Controllers
                 ProductVM productVM = new ProductVM
                 {
                     Products = product,
+                    Product = product.FirstOrDefault(),
                     Categories = repoCategory.GetAll().OrderBy(c => c.ID),
                 };
                 return View(productVM);

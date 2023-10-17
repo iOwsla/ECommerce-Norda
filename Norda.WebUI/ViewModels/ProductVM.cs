@@ -6,6 +6,7 @@ namespace Norda.WebUI.ViewModels
     {
         public IEnumerable<Category> Categories { get; set; }
         public IEnumerable<Product> Products { get; set; }
+        public Product Product { get; set; }
 
     }
 }

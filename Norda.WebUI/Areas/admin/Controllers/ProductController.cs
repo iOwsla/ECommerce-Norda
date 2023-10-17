@@ -82,10 +82,10 @@ public class ProductController : Controller
 	    return View(productVM);
 	}
 
-    [Route("/admin/product/edit/{id}"), HttpPost]
-    public async Task<IActionResult> Edit(ProductVM model)
+    [Route("/admin/product/edit/{ID}"), HttpPost]
+    public async Task<IActionResult> Edit(ProductVM model, int ID)
     {
-
+        model.Product.ID = ID;
         await repoProduct.Update(model.Product);
         if (model.CategoryIDs.Length > 0)
         {

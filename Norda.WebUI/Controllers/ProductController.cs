@@ -39,6 +39,25 @@ namespace Norda.WebUI.Controllers
             return View(productVM);
         }
 
-      
+        [Route("/product/detail/{name}-{id}")]
+        public IActionResult Detail(string name, int id)
+        {
+            var product = repoProduct.GetAll(x => x.ID == id).Include(p => p.ProductPictures).Include(p => p.ProductCategories).ThenInclude(p => p.Category);
+            if (product.Any())
+            {
+                ProductVM productVM = new ProductVM
+                {
+                    Products = product,
+                    Categories = repoCategory.GetAll().OrderBy(c => c.ID),
+                };
+                return View(productVM);
+            }
+            else
+            {
+                return RedirectToAction("Index");
+            }
+        }
+
+
     }
 }

@@ -1,7 +1,6 @@
 ﻿@model ProductVM
 @{
-    var product = Model.Products.First();
-    var productImageFirst = product.ProductPictures.First();
+    var product = Model.Product;
     var productImages = product.ProductPictures;
 }
 

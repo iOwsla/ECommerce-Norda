@@ -1,5 +1,39 @@
 ﻿@model IndexVM
 
+<div class="sidebar-cart-active">
+    <div class="sidebar-cart-all">
+        <a class="cart-close" href="#"><i class="icon_close"></i></a>
+        <div class="cart-content">
+            <h3>Ürün Sepeti</h3>
+            <ul>
+                @foreach (Cart cart in Model.Carts)
+                {
+                    <li class="single-product-cart">
+                        <div class="cart-img">
+                            <a href="#"><img src="@cart.Picture" alt=""></a>
+                        </div>
+                        <div class="cart-title">
+                            <h4><a href="#">@cart.Name</a></h4>
+                            <span> @cart.Quantity × $@cart.Price </span>
+                        </div>
+                        <div class="cart-delete">
+                            <a href="#">×</a>
+                        </div>
+                    </li>
+                }
+            </ul>
+            <div class="cart-total">
+                <h4>Toplam: <span>$@Model.Carts.Sum(x => x.Price * x.Quantity)</span></h4>
+            </div>
+            <div class="cart-checkout-btn">
+                <a class="btn-hover cart-btn-style" asp-controller="Cart" asp-action="Index">Sepeti Görüntüle</a>
+                <a class="no-mrg btn-hover cart-btn-style" asp-controller="Cart" asp-action="Checkout">Ödeme İşlemi</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <header class="header-area">
     <div class="container-fluid">
         <div class="header-large-device">
@@ -111,7 +145,7 @@
                         </div>
                         <div class="same-style-2 header-cart">
                             <a class="cart-active" href="#">
-                                <i class="icon-basket-loaded"></i><span class="pro-count red">02</span>
+                                <i class="icon-basket-loaded"></i><span class="pro-count cart-count red">02</span>
                             </a>
                         </div>
                         <div class="same-style-2 main-menu-icon">

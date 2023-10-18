@@ -1,35 +1,37 @@
-﻿using Norda.BL.Repositories;
-using Norda.DAL.Entities;
-using Norda.WebUI.ViewModels;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
+using Norda.BL.Repositories;
+using Norda.DAL.Entities;
+using Norda.WebUI.Models;
+using Norda.WebUI.ViewModels;
 
-namespace Norda.WebUI.Controllers
+namespace Norda.WebUI.Controllers;
+
+public class HomeController : Controller
 {
-    public class HomeController : Controller
+    private readonly IRepository<Product> repoProduct;
+
+    private readonly IRepository<Slide> repoSlide;
+
+    public HomeController(IRepository<Slide> _repoSlide, IRepository<Product> _repoProduct)
     {
+        repoSlide = _repoSlide;
+        repoProduct = _repoProduct;
+    }
 
-        IRepository<Slide> repoSlide;
-        IRepository<Product> repoProduct;
-
-        public HomeController(IRepository<Slide> _repoSlide, IRepository<Product> _repoProduct)
+    public IActionResult Index()
+    {
+        var indexVM = new IndexVM
         {
-            repoSlide = _repoSlide;
-            repoProduct = _repoProduct;
-        }
+            Slides = repoSlide.GetAll().OrderBy(o => o.DisplayIndex),
+            LatestProducts = repoProduct.GetAll().OrderByDescending(o => o.ID).Take(10),
+            BestSalesProducts = repoProduct.GetAll().Include(p => p.ProductPictures).OrderBy(o => Guid.NewGuid())
+                .Take(8),
+            Products = repoProduct.GetAll().Include(p => p.ProductPictures).OrderBy(o => o.ID),
+            Carts = JsonConvert.DeserializeObject<List<Cart>>(Request.Cookies["MyCart"]) ?? new List<Cart>()
+        };
 
-        public IActionResult Index()
-        {
-
-            IndexVM indexVM = new IndexVM
-            {
-                Slides = repoSlide.GetAll().OrderBy(o => o.DisplayIndex),
-                LatestProducts = repoProduct.GetAll().OrderByDescending(o => o.ID).Take(10),
-                BestSalesProducts = repoProduct.GetAll().Include(p => p.ProductPictures).OrderBy(o => Guid.NewGuid()).Take(8),
-                Products = repoProduct.GetAll().Include(p => p.ProductPictures).OrderBy(o => o.ID)
-            };
-
-            return View(indexVM);
-        }
+        return View(indexVM);
     }
 }

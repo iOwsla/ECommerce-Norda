@@ -1,4 +1,5 @@
 ﻿using Norda.DAL.Entities;
+using Norda.WebUI.Models;
 
 namespace Norda.WebUI.ViewModels
 {
@@ -9,6 +10,7 @@ namespace Norda.WebUI.ViewModels
         public IEnumerable<Product> LatestProducts { get; set; }
         public IEnumerable<Product> BestSalesProducts { get; set; }
         public IEnumerable<Product> Products { get; set; }
+        public List<Cart> Carts { get; set; }
 
     }
 }

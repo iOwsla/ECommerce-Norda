@@ -16,7 +16,12 @@ namespace Norda.WebUI.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            if (Request.Cookies["MyCart"] != null)
+            {
+                var carts = JsonConvert.DeserializeObject<List<Cart>>(Request.Cookies["MyCart"]);
+                return View(carts);
+            }
+            else return RedirectToAction("Index", "Product");
         }
 
         [Route("/cart/add"), HttpPost]
@@ -33,7 +38,7 @@ namespace Norda.WebUI.Controllers
                         Name = product.Name,
                         Picture = product.ProductPictures.Any() ? product.ProductPictures.FirstOrDefault().Picture : "",
                         Price = product.Price,
-                        Quantity = quantity
+                        Quantity = quantity >= product.Stock ? product.Stock : quantity
                     };
                     List<Cart> carts = new List<Cart>();
                     bool isExist = false;
@@ -44,6 +49,10 @@ namespace Norda.WebUI.Controllers
                         {
                             if (_cart.ID == product.ID)
                             {
+                                if (_cart.Quantity == product.Stock)
+                                {
+                                    return "Error";
+                                }
                                 isExist = true;
                                 _cart.Quantity += quantity;
                                 if (_cart.Quantity >= product.Stock)
@@ -66,6 +75,76 @@ namespace Norda.WebUI.Controllers
 
             }
             return "Error";
+        }
+
+        [Route("/cart/remove"), HttpPost]
+        public string RemoveCart(int productId)
+        {
+            if (Request.Cookies["MyCart"] != null)
+            {
+                List<Cart> carts = JsonConvert.DeserializeObject<List<Cart>>(Request.Cookies["MyCart"]);
+                foreach (Cart cart in carts)
+                {
+                    if (cart.ID == productId)
+                    {
+                        carts.Remove(cart);
+                        break;
+                    }
+                }
+                CookieOptions cookieOptions = new();
+                cookieOptions.Expires = DateTime.Now.AddDays(3);
+                Response.Cookies.Append("MyCart", JsonConvert.SerializeObject(carts), cookieOptions);
+                return "Ok";
+            }
+            return "Error";
+        }
+
+        [Route("/cart/update"), HttpPost]
+        public IActionResult UpdateCart(int productId, int quantity)
+        {
+            if (quantity > 0)
+            {
+                if (Request.Cookies["MyCart"] != null)
+                {
+                    List<Cart> carts = JsonConvert.DeserializeObject<List<Cart>>(Request.Cookies["MyCart"]);
+                    foreach (Cart cart in carts)
+                    {
+                        if (cart.ID == productId)
+                        {
+                            cart.Quantity = quantity;
+                            break;
+                        }
+                    }
+                    CookieOptions cookieOptions = new();
+                    cookieOptions.Expires = DateTime.Now.AddDays(3);
+                    Response.Cookies.Append("MyCart", JsonConvert.SerializeObject(carts), cookieOptions);
+                    return RedirectToAction("Index");
+                }
+            }
+            return RedirectToAction("Index");
+        }
+
+        [Route("/cart/count"), HttpPost]
+        public int CartCount()
+        {
+            if (Request.Cookies["MyCart"] != null)
+            {
+                return JsonConvert.DeserializeObject<List<Cart>>(Request.Cookies["MyCart"]).Sum(x => x.Quantity);
+            }
+            return 0;
+        }
+
+        [Route("/cart/clear")]
+        public IActionResult ClearCart()
+        {
+            Response.Cookies.Delete("MyCart");
+            return RedirectToAction("Index");
+        }
+
+        [Route("/cart/checkout")]
+        public IActionResult Checkout()
+        {
+            return View();
         }
     }
 }

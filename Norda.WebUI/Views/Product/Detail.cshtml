@@ -63,7 +63,7 @@
                     <div class="pro-details-quality">
                         <span>Miktar:</span>
                         <div class="cart-plus-minus">
-                            <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1">
+                            <input class="cart-plus-minus-box" id="quantity-@product.ID" type="text" name="qtybutton" value="1">
                         </div>
                     </div>
                     <div class="product-details-meta">
@@ -78,8 +78,8 @@
                         </ul>
                     </div>
                     <div class="pro-details-action-wrap">
-                        <div class="pro-details-add-to-cart">
-                            <a title="Add to Cart" href="#">Sepete Ekle </a>
+                        <div class="pro-details-add-to-cart add-to-cart" productId="@product.ID" stock="@product.Stock">
+                            <a title="Add to Cart">Sepete Ekle </a>
                         </div>
                         <div class="pro-details-action">
                             <a title="Add to Wishlist" href="#"><i class="icon-heart"></i></a>

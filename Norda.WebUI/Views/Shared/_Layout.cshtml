@@ -12,7 +12,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png">
 
     <!-- All CSS is here
-	============================================ -->
+    ============================================ -->
 
     <link rel="stylesheet" href="/css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="/css/vendor/simple-line-icons.css">
@@ -24,18 +24,21 @@
     <link rel="stylesheet" href="/css/plugins/animate.css">
     <link rel="stylesheet" href="/css/plugins/magnific-popup.css">
     <link rel="stylesheet" href="/css/plugins/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.min.css">
     <link rel="stylesheet" href="/css/style.css">
+
+
 
 </head>
 
 <body>
 
     <div class="main-wrapper">
-    
+
         @await Component.InvokeAsync("Header")
         @await Component.InvokeAsync("Cart")
         <section>
-         @RenderBody()
+            @RenderBody()
         </section>
         @await Component.InvokeAsync("Footer")
         <!-- Modal -->
@@ -62,11 +65,11 @@
                                 <div class="quickview-wrap mt-15">
                                     <div class="nav nav-style-6" id="ProductImagesSecondary">
                                         <button class="nav-link active" id="pro-1-tab" data-bs-toggle="tab" data-bs-target="#pro-1" type="button" role="tab"
-                                            aria-controls="pro-1" aria-selected="true">
+                                                aria-controls="pro-1" aria-selected="true">
                                             <img src="/images/product/quickview-s1.jpg" alt="product-thumbnail">
                                         </button>
                                         <button class="nav-link" id="pro-2-tab" data-bs-toggle="tab" data-bs-target="#pro-2" type="button" role="tab"
-                                            aria-controls="pro-2" aria-selected="true">
+                                                aria-controls="pro-2" aria-selected="true">
                                             <img src="/images/product/quickview-s2.jpg" alt="product-thumbnail">
                                         </button>
                                         <button class="nav-link" id="pro-3-tab" data-bs-toggle="tab" data-bs-target="#pro-3" type="button" role="tab"
@@ -167,7 +170,7 @@
     </div>
 
     <!-- All JS is here
-============================================ -->
+    ============================================ -->
 
     <script src="/js/vendor/modernizr-3.11.7.min.js"></script>
     <script src="/js/vendor/jquery-v3.6.0.min.js"></script>
@@ -184,9 +187,10 @@
     <script src="/js/plugins/easyzoom.js"></script>
     <script src="/js/plugins/scrollup.js"></script>
     <script src="/js/plugins/ajax-mail.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.all.min.js"></script>
     <!-- Main JS -->
     <script src="/js/main.js"></script>
-    
+
 </body>
 
 </html>

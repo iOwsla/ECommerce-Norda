@@ -1,6 +1,6 @@
 (function ($) {
     "use strict";
-    
+
     /*------ ScrollUp -------- */
     $.scrollUp({
         scrollText: '<i class="icon-arrow-up"></i>',
@@ -8,10 +8,10 @@
         scrollSpeed: 900,
         animation: 'fade'
     });
-    
+
     /*------ Wow Active ----*/
     new WOW().init();
-    
+
     /*------ Hero slider active 1 ----*/
     $('.hero-slider-active-1').slick({
         slidesToShow: 1,
@@ -23,7 +23,7 @@
         prevArrow: '<span class="slider-icon-1-prev"><i class="icon-arrow-left"></i></span>',
         nextArrow: '<span class="slider-icon-1-next"><i class="icon-arrow-right"></i></span>',
     });
-    
+
     /*------ Hero slider active 2 ----*/
     $('.hero-slider-active-2').slick({
         slidesToShow: 1,
@@ -35,7 +35,7 @@
         prevArrow: '<span class="slider-icon-1-prev"><i class="icon-arrow-left"></i></span>',
         nextArrow: '<span class="slider-icon-1-next"><i class="icon-arrow-right"></i></span>',
     });
-    
+
     /*------ Hero slider active 3 ----*/
     $('.hero-slider-active-3').slick({
         slidesToShow: 1,
@@ -45,7 +45,7 @@
         dots: true,
         arrows: false,
     });
-    
+
     /*------ Product slider active ----*/
     $('.product-slider-active').slick({
         slidesToShow: 4,
@@ -81,7 +81,7 @@
             }
         ]
     });
-    
+
     /*------ Product slider active 2 ----*/
     $('.product-slider-active-2').slick({
         slidesToShow: 3,
@@ -118,7 +118,7 @@
             }
         ]
     });
-    
+
     /*------ Product slider active 3 ----*/
     $('.product-slider-active-3').slick({
         slidesToShow: 5,
@@ -156,7 +156,7 @@
             }
         ]
     });
-    
+
     /*------ Product slider active 4 ----*/
     $('.product-slider-active-4').slick({
         slidesToShow: 4,
@@ -194,7 +194,7 @@
             }
         ]
     });
-    
+
     /*------ Product slider active 5 ----*/
     $('.product-slider-active-5').slick({
         slidesToShow: 4,
@@ -230,7 +230,7 @@
             }
         ]
     });
-    
+
     /*------ product categories slider 1 ----*/
     $('.product-categories-slider-1').slick({
         slidesToShow: 6,
@@ -268,7 +268,7 @@
             }
         ]
     });
-    
+
     /*------ Product categories slider 3 ----*/
     $('.product-categories-slider-3').slick({
         slidesToShow: 6,
@@ -307,19 +307,19 @@
             }
         ]
     });
-    
-    
-    
+
+
+
     /*--------------------------------
         InstagramFeed active
     -----------------------------------*/
-    
+
     /*--
     instafeed
     -----------------------------------*/
     // User Changeable Access
     var activeId = $("#instafeed"),
-    limit = activeId.data("limit"),
+        limit = activeId.data("limit"),
         myTemplate = '<div class="single-instafeed"><a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" /></a></div>';
     if (activeId.length) {
         var accessTokenID = "IGQVJWLXU1Ri1JbjE0RlhlRmVZAMy1mRllxUzJWZAG5najYxWUxLcGl1SV80UHNiN2ZAaUFdHTVllMEh6YjRucTZAIY09TQlowdGlScG9taHhWNHJwaXQzOVZAwUDdsZAHdqTjhTcHB5ZA2I5QWRVZAVZAtYjZA2SgZDZD",
@@ -330,18 +330,18 @@
             });
         userFeed.run();
     }
-    
-    
+
+
     /*--- Language currency active ----*/
-    $('.language-dropdown-active').on('click', function(e) {
+    $('.language-dropdown-active').on('click', function (e) {
         e.preventDefault();
         $('.language-dropdown').slideToggle(400);
     });
-    $('.currency-dropdown-active').on('click', function(e) {
+    $('.currency-dropdown-active').on('click', function (e) {
         e.preventDefault();
         $('.currency-dropdown').slideToggle(400);
     });
-    
+
     /*--- Countdown timer active ----*/
     $('#timer-1-active , #timer-3-active').syotimer({
         year: 2021,
@@ -353,7 +353,7 @@
         periodic: false,
         periodUnit: 'm'
     });
-    
+
     $('#timer-2-active').syotimer({
         year: 2021,
         month: 10,
@@ -364,62 +364,62 @@
         periodic: false,
         periodUnit: 'm'
     });
-    
+
     /*====== SidebarCart ======*/
     function miniCart() {
         var navbarTrigger = $('.cart-active'),
             endTrigger = $('.cart-close'),
             container = $('.sidebar-cart-active'),
             wrapper = $('.main-wrapper');
-        
+
         wrapper.prepend('<div class="body-overlay"></div>');
-        
-        navbarTrigger.on('click', function(e) {
+
+        navbarTrigger.on('click', function (e) {
             e.preventDefault();
             container.addClass('inside');
             wrapper.addClass('overlay-active');
         });
-        
-        endTrigger.on('click', function() {
+
+        endTrigger.on('click', function () {
             container.removeClass('inside');
             wrapper.removeClass('overlay-active');
         });
-        
-        $('.body-overlay').on('click', function() {
+
+        $('.body-overlay').on('click', function () {
             container.removeClass('inside');
             wrapper.removeClass('overlay-active');
         });
     };
     miniCart();
-    
+
     /*-------------------------------
-	   Header Search Toggle
+       Header Search Toggle
     -----------------------------------*/
     var searchToggle = $('.search-toggle');
-    searchToggle.on('click', function(e){
+    searchToggle.on('click', function (e) {
         e.preventDefault();
-        if($(this).hasClass('open')){
-           $(this).removeClass('open');
-           $(this).siblings('.search-wrap-1').removeClass('open');
-        }else{
-           $(this).addClass('open');
-           $(this).siblings('.search-wrap-1').addClass('open');
+        if ($(this).hasClass('open')) {
+            $(this).removeClass('open');
+            $(this).siblings('.search-wrap-1').removeClass('open');
+        } else {
+            $(this).addClass('open');
+            $(this).siblings('.search-wrap-1').addClass('open');
         }
     })
-    
-    
+
+
     /* NiceSelect */
     $('.nice-select').niceSelect();
-     
-    
+
+
     /*-------------------------
       Category active
     --------------------------*/
-    $('.categori-show').on('click', function(e) {
+    $('.categori-show').on('click', function (e) {
         e.preventDefault();
         $('.categori-hide , .categori-hide-2').slideToggle(900);
     });
-    
+
     /*--------------------------------
         Deal slider active
     -----------------------------------*/
@@ -433,8 +433,8 @@
         prevArrow: '<span class="slider-icon-1-prev"><i class="icon-arrow-left"></i></span>',
         nextArrow: '<span class="slider-icon-1-next"><i class="icon-arrow-right"></i></span>',
     });
-    
-    
+
+
     /*--------------------------------
         Sidebar product active
     -----------------------------------*/
@@ -449,7 +449,7 @@
         prevArrow: '<span class="sidebar-icon-prev"><i class="icon-arrow-left"></i></span>',
         nextArrow: '<span class="sidebar-icon-next"><i class="icon-arrow-right"></i></span>',
     });
-    
+
     /*--------------------------------
         Sidebar blog active
     -----------------------------------*/
@@ -464,7 +464,7 @@
         prevArrow: '<span class="sidebar-icon-prev"><i class="icon-arrow-left"></i></span>',
         nextArrow: '<span class="sidebar-icon-next"><i class="icon-arrow-right"></i></span>',
     });
-    
+
     /*--------------------------------
         Product categories slider
     -----------------------------------*/
@@ -504,7 +504,7 @@
             }
         ]
     });
-    
+
     /*--------------------------------
         Testimonial active
     -----------------------------------*/
@@ -527,7 +527,7 @@
         dots: false,
         arrows: false,
     });
-    
+
     /*--------------------------------
         Product slider active 6
     -----------------------------------*/
@@ -566,7 +566,7 @@
             }
         ]
     });
-    
+
     /*--------------------------------
         Product slider active 7
     -----------------------------------*/
@@ -605,7 +605,7 @@
             }
         ]
     });
-    
+
     /*--------------------------------
         Product slider active 8
     -----------------------------------*/
@@ -645,7 +645,7 @@
             }
         ]
     });
-    
+
     /*--------------------------------
         Product slider active 9
     -----------------------------------*/
@@ -683,13 +683,13 @@
             }
         ]
     });
-    
+
     /*------- Color active -----*/
-    $('.pro-details-color-content').on('click', 'a', function(e){
+    $('.pro-details-color-content').on('click', 'a', function (e) {
         e.preventDefault();
         $(this).addClass('active').parent().siblings().children('a').removeClass('active');
     });
-    
+
     /*--------------------------------
         Social icon active
     -----------------------------------*/
@@ -697,7 +697,7 @@
         var $body = $('body'),
             $cartWrap = $('.pro-details-action'),
             $cartContent = $cartWrap.find('.product-dec-social');
-        $cartWrap.on('click', '.social', function(e) {
+        $cartWrap.on('click', '.social', function (e) {
             e.preventDefault();
             var $this = $(this);
             if (!$this.parent().hasClass('show')) {
@@ -707,7 +707,7 @@
             }
         });
         /*Close When Click Outside*/
-        $body.on('click', function(e) {
+        $body.on('click', function (e) {
             var $target = e.target;
             if (!$($target).is('.pro-details-action') && !$($target).parents().is('.pro-details-action') && $cartWrap.hasClass('show')) {
                 $cartWrap.removeClass('show');
@@ -715,33 +715,33 @@
             }
         });
     }
-    
+
     /*---------------------
         Price range
     --------------------- */
     var sliderrange = $('#slider-range');
     var amountprice = $('#amount');
-    $(function() {
+    $(function () {
         sliderrange.slider({
             range: true,
             min: 16,
             max: 400,
             values: [0, 300],
-            slide: function(event, ui) {
+            slide: function (event, ui) {
                 amountprice.val("$" + ui.values[0] + " - $" + ui.values[1]);
             }
         });
         amountprice.val("$" + sliderrange.slider("values", 0) +
             " - $" + sliderrange.slider("values", 1));
     });
-    
+
     /*----------------------------
-    	Cart Plus Minus Button
+        Cart Plus Minus Button
     ------------------------------ */
     var CartPlusMinus = $('.cart-plus-minus');
     CartPlusMinus.prepend('<div class="dec qtybutton">-</div>');
     CartPlusMinus.append('<div class="inc qtybutton">+</div>');
-    $(".qtybutton").on("click", function() {
+    $(".qtybutton").on("click", function () {
         var $button = $(this);
         var oldValue = $button.parent().find("input").val();
         if ($button.text() === "+") {
@@ -756,7 +756,7 @@
         }
         $button.parent().find("input").val(newVal);
     });
-    
+
     $('#exampleModal').on('shown.bs.modal', function () {
         $('.quickview-slide-active').slick({
             slidesToShow: 3,
@@ -794,56 +794,56 @@
                 }
             ]
         });
-        $('.quickview-slide-active a').on('click', function() {
+        $('.quickview-slide-active a').on('click', function () {
             $('.quickview-slide-active a').removeClass('active');
         })
     })
-    
-     /*====== Sidebar menu Active ======*/
+
+    /*====== Sidebar menu Active ======*/
     function mobileHeaderActive() {
         var navbarTrigger = $('.mobile-header-button-active'),
             endTrigger = $('.sidebar-close'),
             container = $('.mobile-header-active'),
             wrapper4 = $('.main-wrapper');
-        
+
         wrapper4.prepend('<div class="body-overlay-1"></div>');
-        
-        navbarTrigger.on('click', function(e) {
+
+        navbarTrigger.on('click', function (e) {
             e.preventDefault();
             container.addClass('sidebar-visible');
             wrapper4.addClass('overlay-active-1');
         });
-        
-        endTrigger.on('click', function() {
+
+        endTrigger.on('click', function () {
             container.removeClass('sidebar-visible');
             wrapper4.removeClass('overlay-active-1');
         });
-        
-        $('.body-overlay-1').on('click', function() {
+
+        $('.body-overlay-1').on('click', function () {
             container.removeClass('sidebar-visible');
             wrapper4.removeClass('overlay-active-1');
         });
     };
     mobileHeaderActive();
-    
+
     /*---------------------
         mobile-menu
     --------------------- */
     var $offCanvasNav = $('.mobile-menu , .category-menu-dropdown'),
         $offCanvasNavSubMenu = $offCanvasNav.find('.dropdown');
-    
+
     /*Add Toggle Button With Off Canvas Sub Menu*/
     $offCanvasNavSubMenu.parent().prepend('<span class="menu-expand"><i></i></span>');
-    
+
     /*Close Off Canvas Sub Menu*/
     $offCanvasNavSubMenu.slideUp();
-    
+
     /*Category Sub Menu Toggle*/
-    $offCanvasNav.on('click', 'li a, li .menu-expand', function(e) {
+    $offCanvasNav.on('click', 'li a, li .menu-expand', function (e) {
         var $this = $(this);
-        if ( ($this.parent().attr('class').match(/\b(menu-item-has-children|has-children|has-sub-menu)\b/)) && ($this.attr('href') === '#' || $this.hasClass('menu-expand')) ) {
+        if (($this.parent().attr('class').match(/\b(menu-item-has-children|has-children|has-sub-menu)\b/)) && ($this.attr('href') === '#' || $this.hasClass('menu-expand'))) {
             e.preventDefault();
-            if ($this.siblings('ul:visible').length){
+            if ($this.siblings('ul:visible').length) {
                 $this.parent('li').removeClass('active');
                 $this.siblings('ul').slideUp();
             } else {
@@ -854,48 +854,48 @@
             }
         }
     });
-    
-    
+
+
     /*--- checkout toggle function ----*/
-    $('.checkout-click1').on('click', function(e) {
+    $('.checkout-click1').on('click', function (e) {
         e.preventDefault();
         $('.checkout-login-info').slideToggle(900);
     });
-    
-    
+
+
     /*--- checkout toggle function ----*/
-    $('.checkout-click3').on('click', function(e) {
+    $('.checkout-click3').on('click', function (e) {
         e.preventDefault();
         $('.checkout-login-info3').slideToggle(1000);
     });
-    
+
     /*-------------------------
     Create an account toggle
     --------------------------*/
-    $('.checkout-toggle2').on('click', function() {
+    $('.checkout-toggle2').on('click', function () {
         $('.open-toggle2').slideToggle(1000);
     });
-    
-    $('.checkout-toggle').on('click', function() {
+
+    $('.checkout-toggle').on('click', function () {
         $('.open-toggle').slideToggle(1000);
     });
-    
+
     /*-------------------------
     checkout one click toggle function
     --------------------------*/
-    var checked = $( '.sin-payment input:checked' )
-    if(checked){
-        $(checked).siblings( '.payment-box' ).slideDown(900);
+    var checked = $('.sin-payment input:checked')
+    if (checked) {
+        $(checked).siblings('.payment-box').slideDown(900);
     };
-	 $( '.sin-payment input' ).on('change', function() {
-        $( '.payment-box' ).slideUp(900);
-        $(this).siblings( '.payment-box' ).slideToggle(900);
+    $('.sin-payment input').on('change', function () {
+        $('.payment-box').slideUp(900);
+        $(this).siblings('.payment-box').slideToggle(900);
     });
-    
-    
+
+
     // Instantiate EasyZoom instances
     var $easyzoom = $('.easyzoom').easyZoom();
-    
+
     /*-------------------------------------
         Product details big image slider
     ---------------------------------------*/
@@ -907,7 +907,7 @@
         fade: false,
         asNavFor: '.product-dec-slider-small , .product-dec-slider-small-2',
     });
-    
+
     /*---------------------------------------
         Product details small image slider
     -----------------------------------------*/
@@ -921,26 +921,26 @@
         prevArrow: '<span class="pro-dec-prev"><i class="icon-arrow-left"></i></span>',
         nextArrow: '<span class="pro-dec-next"><i class="icon-arrow-right"></i></span>',
         responsive: [{
-                breakpoint: 991,
-                settings: {
-                    slidesToShow: 3,
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 4,
-                }
-            },
-            {
-                breakpoint: 575,
-                settings: {
-                    slidesToShow: 2,
-                }
+            breakpoint: 991,
+            settings: {
+                slidesToShow: 3,
             }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 4,
+            }
+        },
+        {
+            breakpoint: 575,
+            settings: {
+                slidesToShow: 2,
+            }
+        }
         ]
     });
-    
+
     /*----------------------------------------
         Product details small image slider 2
     ------------------------------------------*/
@@ -955,39 +955,39 @@
         prevArrow: '<span class="pro-dec-prev"><i class="icon-arrow-up"></i></span>',
         nextArrow: '<span class="pro-dec-next"><i class="icon-arrow-down"></i></span>',
         responsive: [{
-                breakpoint: 1365,
-                settings: {
-                    slidesToShow: 4,
-                }
-            },
-            {
-                breakpoint: 1199,
-                settings: {
-                    slidesToShow: 3,
-                }
-            },
-            {
-                breakpoint: 991,
-                settings: {
-                    slidesToShow: 4,
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 4,
-                }
-            },
-            {
-                breakpoint: 575,
-                settings: {
-                    slidesToShow: 2,
-                }
+            breakpoint: 1365,
+            settings: {
+                slidesToShow: 4,
             }
+        },
+        {
+            breakpoint: 1199,
+            settings: {
+                slidesToShow: 3,
+            }
+        },
+        {
+            breakpoint: 991,
+            settings: {
+                slidesToShow: 4,
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 4,
+            }
+        },
+        {
+            breakpoint: 575,
+            settings: {
+                slidesToShow: 2,
+            }
+        }
         ]
     });
-    
-    
+
+
     /*--
         Magnific Popup
     ------------------------*/
@@ -997,7 +997,7 @@
             enabled: true
         }
     });
-    
+
     $('.related-product-active').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
@@ -1032,26 +1032,78 @@
             }
         ]
     });
-    
+
     /*------------------------
         Sidebar sticky active
     -------------------------- */
     $('.sidebar-active').stickySidebar({
         topSpacing: 0,
         bottomSpacing: 30,
-        minWidth: 767, 
+        minWidth: 767,
     });
-    
+
     /*--- language currency active ----*/
-    $('.mobile-language-active').on('click', function(e) {
+    $('.mobile-language-active').on('click', function (e) {
         e.preventDefault();
         $('.lang-dropdown-active').slideToggle(900);
     });
-    $('.mobile-currency-active').on('click', function(e) {
+    $('.mobile-currency-active').on('click', function (e) {
         e.preventDefault();
         $('.curr-dropdown-active').slideToggle(900);
     });
-    
-    
+
+
 })(jQuery);
 
+
+document.querySelectorAll(".add-to-cart").forEach(function (element) {
+    element.addEventListener("click", function (e) {
+        const productId = element.getAttribute("productId");
+        const stockCount = element.getAttribute("stock");
+        const quantity = document.querySelector(`#quantity-${productId}`)?.value || 1;
+        if (stockCount <= 0) {
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Error! Stock count is not enough!',
+                confirmButtonText: 'Ok',
+            });
+            return;
+        }
+
+        $.ajax({
+            url: "/cart/add",
+            type: "POST",
+            data: { productId, quantity },
+            success: function (response) {
+                if (response == "Ok") {
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Success!',
+                        text: 'Product added to cart!',
+                        confirmButtonText: 'Ok',
+                    });
+                    return;
+                } else {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Oops...',
+                        text: 'Error! Product not added to cart!',
+                        confirmButtonText: 'Ok',
+                    });
+                    return;
+                }
+            },
+            error: function (response) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Error! Product not added to cart!',
+                    confirmButtonText: 'Ok',
+
+                });
+            }
+        });
+
+    });
+});

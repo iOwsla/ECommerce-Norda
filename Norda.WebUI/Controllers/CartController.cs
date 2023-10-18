@@ -77,15 +77,15 @@ namespace Norda.WebUI.Controllers
             return "Error";
         }
 
-        [Route("/cart/remove"), HttpPost]
-        public string RemoveCart(int productId)
+        [Route("/cart/remove"), HttpGet]
+        public IActionResult RemoveCart(int id)
         {
             if (Request.Cookies["MyCart"] != null)
             {
                 List<Cart> carts = JsonConvert.DeserializeObject<List<Cart>>(Request.Cookies["MyCart"]);
                 foreach (Cart cart in carts)
                 {
-                    if (cart.ID == productId)
+                    if (cart.ID == id)
                     {
                         carts.Remove(cart);
                         break;
@@ -94,9 +94,10 @@ namespace Norda.WebUI.Controllers
                 CookieOptions cookieOptions = new();
                 cookieOptions.Expires = DateTime.Now.AddDays(3);
                 Response.Cookies.Append("MyCart", JsonConvert.SerializeObject(carts), cookieOptions);
-                return "Ok";
+                return RedirectToAction("Index");
             }
-            return "Error";
+
+            return RedirectToAction("Index");
         }
 
         [Route("/cart/update"), HttpPost]

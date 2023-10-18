@@ -22,16 +22,16 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        var indexVM = new IndexVM
+        var indexVm = new IndexVM
         {
             Slides = repoSlide.GetAll().OrderBy(o => o.DisplayIndex),
             LatestProducts = repoProduct.GetAll().OrderByDescending(o => o.ID).Take(10),
             BestSalesProducts = repoProduct.GetAll().Include(p => p.ProductPictures).OrderBy(o => Guid.NewGuid())
                 .Take(8),
-            Products = repoProduct.GetAll().Include(p => p.ProductPictures).OrderBy(o => o.ID),
-            Carts = JsonConvert.DeserializeObject<List<Cart>>(Request.Cookies["MyCart"]) ?? new List<Cart>()
-        };
+            Products = repoProduct.GetAll().Include(p => p.ProductPictures).OrderBy(o => o.ID)
 
-        return View(indexVM);
+    };
+
+        return View(indexVm);
     }
 }

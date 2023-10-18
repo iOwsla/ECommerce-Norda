@@ -1042,33 +1042,7 @@ const checkCartCount = () => {
 
 
     /*====== SidebarCart ======*/
-    function miniCart() {
-        var navbarTrigger = $('.cart-active'),
-            endTrigger = $('.cart-close'),
-            container = $('.sidebar-cart-active'),
-            wrapper = $('.main-wrapper');
-
-        wrapper.prepend('<div class="body-overlay"></div>');
-
-        navbarTrigger.on('click', function (e) {
-            e.preventDefault();
-            container.addClass('inside');
-            wrapper.addClass('overlay-active');
-            checkCartCount();
-        });
-
-        endTrigger.on('click', function () {
-            container.removeClass('inside');
-            wrapper.removeClass('overlay-active');
-        });
-
-        $('.body-overlay').on('click', function () {
-            container.removeClass('inside');
-            wrapper.removeClass('overlay-active');
-            checkCartCount();
-        });
-    };
-    miniCart();
+  
 
 
 })(jQuery);
@@ -1107,9 +1081,9 @@ document.querySelectorAll(".add-to-cart").forEach(function (element) {
                     }).then(e => {
                         if (e.isConfirmed) {
                             checkCartCount();
-                            window.location.reload();
                         }
                     });
+                    
                     return;
                 } else {
                     Swal.fire({

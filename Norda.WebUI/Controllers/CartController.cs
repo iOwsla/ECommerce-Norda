@@ -4,6 +4,7 @@ using Newtonsoft.Json;
 using Norda.BL.Repositories;
 using Norda.DAL.Entities;
 using Norda.WebUI.Models;
+using Norda.WebUI.ViewModels;
 
 namespace Norda.WebUI.Controllers
 {
@@ -14,12 +15,20 @@ namespace Norda.WebUI.Controllers
         {
             _repoProduct = repoProduct;
         }
+
+        [Route("/cart")]
         public IActionResult Index()
         {
             if (Request.Cookies["MyCart"] != null)
             {
-                var carts = JsonConvert.DeserializeObject<List<Cart>>(Request.Cookies["MyCart"]);
-                return View(carts);
+                CartVM cartVM = new CartVM
+                {
+                    Carts = JsonConvert.DeserializeObject<List<Cart>>(Request.Cookies["MyCart"]),
+                    Products = _repoProduct.GetAll().OrderBy(x => Guid.NewGuid()).Take(4)
+                    
+                };
+
+                return View(cartVM);
             }
             else return RedirectToAction("Index", "Product");
         }

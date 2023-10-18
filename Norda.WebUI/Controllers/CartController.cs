@@ -55,6 +55,8 @@ namespace Norda.WebUI.Controllers
                         }
                         
                         // carts.Add(cart);
+                        // save to cookie
+                        // Response.Cookies.Append("MyCart", JsonConvert.SerializeObject(carts));
                     }
                     if (!isExist) carts.Add(cart);
                     CookieOptions cookieOptions = new();

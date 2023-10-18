@@ -54,7 +54,6 @@ namespace Norda.WebUI.Controllers
                             }
                         }
                         
-                        // carts.Add(cart);
                     }
                     if (!isExist) carts.Add(cart);
                     CookieOptions cookieOptions = new();

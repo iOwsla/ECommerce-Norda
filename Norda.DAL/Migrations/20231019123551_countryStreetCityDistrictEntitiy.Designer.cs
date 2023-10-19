@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Norda.DAL.Contexts;
 
@@ -11,9 +12,11 @@ using Norda.DAL.Contexts;
 namespace Norda.DAL.Migrations
 {
     [DbContext(typeof(SqlContext))]
-    partial class SqlContextModelSnapshot : ModelSnapshot
+    [Migration("20231019123551_countryStreetCityDistrictEntitiy")]
+    partial class countryStreetCityDistrictEntitiy
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -535,9 +538,8 @@ namespace Norda.DAL.Migrations
             modelBuilder.Entity("Norda.DAL.Entities.Street", b =>
                 {
                     b.HasOne("Norda.DAL.Entities.District", "District")
-                        .WithMany("Streets")
-                        .HasForeignKey("DistrictID")
-                        .OnDelete(DeleteBehavior.SetNull);
+                        .WithMany()
+                        .HasForeignKey("DistrictID");
 
                     b.Navigation("District");
                 });
@@ -559,11 +561,6 @@ namespace Norda.DAL.Migrations
                     b.Navigation("Districts");
 
                     b.Navigation("Orders");
-                });
-
-            modelBuilder.Entity("Norda.DAL.Entities.District", b =>
-                {
-                    b.Navigation("Streets");
                 });
 
             modelBuilder.Entity("Norda.DAL.Entities.Order", b =>

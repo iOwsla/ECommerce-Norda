@@ -154,7 +154,19 @@ namespace Norda.WebUI.Controllers
         [Route("/cart/checkout")]
         public IActionResult Checkout()
         {
-            return View();
+            OrderVM orderVM = new OrderVM()
+            {
+                Carts = JsonConvert.DeserializeObject<List<Cart>>(Request.Cookies["MyCart"]),
+                Order = new Order()
+            };
+            return View(orderVM);
+        }
+
+        [Route("/cart/checkout"), HttpPost]
+        public IActionResult Checkout(Order order)
+        {
+            
+            return RedirectToAction("Index", "Cart");
         }
     }
 }

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Norda.DAL.Contexts;
 
@@ -11,9 +12,11 @@ using Norda.DAL.Contexts;
 namespace Norda.DAL.Migrations
 {
     [DbContext(typeof(SqlContext))]
-    partial class SqlContextModelSnapshot : ModelSnapshot
+    [Migration("20231019120408_order")]
+    partial class order
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -121,47 +124,9 @@ namespace Norda.DAL.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");
 
-                    b.Property<int>("PhoneCode")
-                        .HasColumnType("int");
-
-                    b.Property<int>("PlateNo")
-                        .HasColumnType("int");
-
-                    b.Property<int>("RowNumber")
-                        .HasColumnType("int");
-
                     b.HasKey("ID");
 
                     b.ToTable("City");
-                });
-
-            modelBuilder.Entity("Norda.DAL.Entities.Country", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
-
-                    b.Property<string>("BinaryCode")
-                        .HasMaxLength(2)
-                        .HasColumnType("char(2)");
-
-                    b.Property<string>("Name")
-                        .HasMaxLength(100)
-                        .HasColumnType("varchar(100)");
-
-                    b.Property<string>("PhoneCode")
-                        .HasMaxLength(10)
-                        .HasColumnType("varchar(10)");
-
-                    b.Property<string>("TripleCode")
-                        .HasMaxLength(3)
-                        .HasColumnType("char(3)");
-
-                    b.HasKey("ID");
-
-                    b.ToTable("Country");
                 });
 
             modelBuilder.Entity("Norda.DAL.Entities.District", b =>
@@ -174,9 +139,6 @@ namespace Norda.DAL.Migrations
 
                     b.Property<int?>("CityID")
                         .HasColumnType("int");
-
-                    b.Property<string>("CityName")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .HasMaxLength(100)
@@ -417,36 +379,6 @@ namespace Norda.DAL.Migrations
                     b.ToTable("Slide");
                 });
 
-            modelBuilder.Entity("Norda.DAL.Entities.Street", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
-
-                    b.Property<int?>("DistrictID")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Name")
-                        .HasMaxLength(100)
-                        .HasColumnType("varchar(100)");
-
-                    b.Property<string>("PostCode")
-                        .HasMaxLength(10)
-                        .HasColumnType("varchar(10)");
-
-                    b.Property<string>("StreetName")
-                        .HasMaxLength(100)
-                        .HasColumnType("varchar(100)");
-
-                    b.HasKey("ID");
-
-                    b.HasIndex("DistrictID");
-
-                    b.ToTable("Street");
-                });
-
             modelBuilder.Entity("Norda.DAL.Entities.Category", b =>
                 {
                     b.HasOne("Norda.DAL.Entities.Category", "ParentCategory")
@@ -532,16 +464,6 @@ namespace Norda.DAL.Migrations
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("Norda.DAL.Entities.Street", b =>
-                {
-                    b.HasOne("Norda.DAL.Entities.District", "District")
-                        .WithMany("Streets")
-                        .HasForeignKey("DistrictID")
-                        .OnDelete(DeleteBehavior.SetNull);
-
-                    b.Navigation("District");
-                });
-
             modelBuilder.Entity("Norda.DAL.Entities.Brand", b =>
                 {
                     b.Navigation("Products");
@@ -559,11 +481,6 @@ namespace Norda.DAL.Migrations
                     b.Navigation("Districts");
 
                     b.Navigation("Orders");
-                });
-
-            modelBuilder.Entity("Norda.DAL.Entities.District", b =>
-                {
-                    b.Navigation("Streets");
                 });
 
             modelBuilder.Entity("Norda.DAL.Entities.Order", b =>

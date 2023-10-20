@@ -3,7 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using Norda.BL.Repositories;
 using Norda.DAL.Entities;
+using Norda.DAL.Migrations;
 using Norda.WebUI.Models;
+using Norda.WebUI.Tools;
 using Norda.WebUI.ViewModels;
 
 namespace Norda.WebUI.Controllers
@@ -11,9 +13,22 @@ namespace Norda.WebUI.Controllers
     public class CartController : Controller
     {
         IRepository<Product> _repoProduct;
-        public CartController(IRepository<Product> repoProduct)
+        IRepository<Country> _repoCountry;
+        IRepository<City> _repoCity;
+        IRepository<District> _repoDistrict;
+        IRepository<Street> _repoStreet;
+        IRepository<Order> _repoOrder;
+        IRepository<OrderDetail> _repoOrderDetail;
+
+        public CartController(IRepository<Product> repoProduct, IRepository<Country> repoCountry, IRepository<City> repoCity, IRepository<District> repoDistrict, IRepository<Street> repoStreet, IRepository<Order> repoOrder, IRepository<OrderDetail> repoOrderDetail)
         {
             _repoProduct = repoProduct;
+            _repoCountry = repoCountry;
+            _repoCity = repoCity;
+            _repoDistrict = repoDistrict;
+            _repoStreet = repoStreet;
+            _repoOrder = repoOrder;
+            _repoOrderDetail = repoOrderDetail;
         }
 
         [Route("/cart")]
@@ -157,16 +172,47 @@ namespace Norda.WebUI.Controllers
             OrderVM orderVM = new OrderVM()
             {
                 Carts = JsonConvert.DeserializeObject<List<Cart>>(Request.Cookies["MyCart"]),
+                Countries = _repoCountry.GetAll().ToList(),
+                Cities = _repoCity.GetAll().OrderBy(c => c.Name).ToList(),
+                Districts = _repoDistrict.GetAll().OrderBy(c => c.Name).ToList(),
+                Streets = _repoStreet.GetAll().OrderBy(c => c.Name).ToList(),
                 Order = new Order()
             };
             return View(orderVM);
         }
 
         [Route("/cart/checkout"), HttpPost]
-        public IActionResult Checkout(Order order)
+        public async Task<IActionResult> Checkout(OrderVM model)
         {
             
-            return RedirectToAction("Index", "Cart");
+            model.Order.IPNO = Request.HttpContext.Connection.RemoteIpAddress.ToString();
+            model.Order.RecDate = DateTime.Now;
+            model.Order.OrderStatus = EOrderStatus.Hazırlanıyor;
+            string orderNumber = Guid.NewGuid().ToString().Substring(0, 8).ToUpper();
+            model.Order.OrderNumber = orderNumber;
+            await _repoOrder.Add(model.Order);
+            foreach (Cart cart in JsonConvert.DeserializeObject<List<Cart>>(Request.Cookies["MyCart"]))
+            {
+                await _repoOrderDetail.Add(new OrderDetail()
+                {
+                    Name = cart.Name,
+                    Price = cart.Price,
+                    Quantity = cart.Quantity,
+                    OrderID = model.Order.ID,
+                    ProductID = cart.ID,
+                    Picture = cart.Picture
+                });
+            }
+            Response.Cookies.Delete("MyCart");
+            TempData["SuccessMessage"] =
+                "Siparişiniz başarıyla alınmıştır. Sipariş numaranız: " + orderNumber;
+            GeneralTool.MailGonder(model.Order.Mail, "Sipariş Alındı", "Siparişiniz başarıyla alınmıştır. Sipariş numaranız: " + orderNumber);
+            return RedirectToAction("SuccessOrder", "Cart");
+        }
+        [Route("/cart/successorder")]
+        public IActionResult SuccessOrder()
+        {
+            return View();
         }
     }
 }

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Net;
+using System.Net.Mail;
 using System.Text;
 using System.Security.Cryptography;
 using Microsoft.CodeAnalysis.Scripting;
@@ -89,7 +91,25 @@ namespace Norda.WebUI.Tools
                 result = url.Replace(" ", "-").Replace("ı", "i").Replace("ö", "o").Replace("ü", "u").Replace("ş", "s").Replace("ğ", "g").Replace("ç", "c").Replace("İ", "i").Replace("Ö", "o").Replace("Ü", "u").Replace("Ş", "s").Replace("Ğ", "g").Replace("Ç", "c").ToLower();
             }
             return result;
-        }   
+        }
+
+        public static void MailGonder(string kime, string konu, string mesaj)
+        {
+            SmtpClient smtpClient = new SmtpClient();
+            smtpClient.Host = "mail.biltekno.com";
+            smtpClient.Port = 587;
+            smtpClient.UseDefaultCredentials = false;
+            smtpClient.EnableSsl = false;
+            smtpClient.Credentials = new NetworkCredential("test@biltekno.com","t123e");
+            MailMessage mailMessage = new();
+            mailMessage.From = new MailAddress("test@biltekno.com");
+            mailMessage.Subject = konu;
+            mailMessage.Body = mesaj;
+            mailMessage.To.Add(kime);
+            mailMessage.IsBodyHtml = true;
+            mailMessage.BodyEncoding = Encoding.UTF8;
+            smtpClient.Send(mailMessage);
+        }
     }
 
 

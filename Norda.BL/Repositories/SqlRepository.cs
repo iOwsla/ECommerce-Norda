@@ -25,7 +25,7 @@ namespace Norda.BL.Repositories
 
         public async Task Delete(T entity)
         {
-            db.Remove(entity);
+            await Task.Run(() => { db.Remove(entity); });
             await db.SaveChangesAsync();
         }
 
@@ -62,7 +62,7 @@ namespace Norda.BL.Repositories
                 {
                     db.Entry(entity).Property(e).IsModified = true;
                 }
-            else db.Update(entity);
+            else await Task.Run(() => { db.Update(entity); });
             await db.SaveChangesAsync();
         }
 

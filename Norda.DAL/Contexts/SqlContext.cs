@@ -28,11 +28,17 @@ namespace Norda.DAL.Contexts
         public DbSet<City> City { get; set; }
         public DbSet<Street> Street { get; set; }
         public DbSet<Country> Country { get; set; }
+        public DbSet<OrderDetail> OrderDetail { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
+            // tekil ilişkilendirme
+            modelBuilder.Entity<OrderDetail>()
+                .HasOne(d => d.Product)  // Navigation property in OrderDetail for Product
+                .WithMany(p => p.OrderDetails) // Navigation property in Product for OrderDetails
+                .HasForeignKey(d => d.ProductID)
+                .OnDelete(DeleteBehavior.Cascade);
             // fluent api
             modelBuilder.Entity<District>().HasOne(x => x.City).WithMany(x => x.Districts).OnDelete(DeleteBehavior.SetNull);
 
@@ -43,8 +49,7 @@ namespace Norda.DAL.Contexts
 
             // Herhangi bir marka silinirse o markaya ait tüm ürünlerin silinmesini önlemek için yapılıyor.
             modelBuilder.Entity<Product>().HasOne(x => x.Brand).WithMany(x => x.Products).OnDelete(DeleteBehavior.SetNull);
-
-            modelBuilder.Entity<Order>().HasIndex(o => o.OrderNumber).IsUnique().HasDatabaseName("OrderNumberUnique");
+           
 
             // Sınırsız Kategori Mantığı.
             modelBuilder.Entity<Category>().HasOne(x => x.ParentCategory).WithMany(x => x.SubCategories).HasForeignKey(x => x.ParentID);

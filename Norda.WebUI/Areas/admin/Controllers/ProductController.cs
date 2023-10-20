@@ -119,8 +119,7 @@ public class ProductController : Controller
         }
         catch (Exception ex)
         {
-            return ex.Message;
+            return $"Exception: {ex.Message}, InnerException: {ex.InnerException?.Message ?? "None"}";
         }
-
     }
 }

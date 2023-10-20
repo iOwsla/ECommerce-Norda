@@ -44,6 +44,7 @@ namespace Norda.DAL.Entities
         [Display(Name = "Görüntüleme Sırası")]
         public int DisplayIndex { get; set; }
 
+        public ICollection<OrderDetail> OrderDetails { get; set; }
 
 
 		/*

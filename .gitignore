@@ -6,6 +6,7 @@
 *.ko
 *.obj
 *.elf
+* obj
 
 # Linker output
 *.ilk
@@ -51,3 +52,4 @@ Module.symvers
 Mkfile.old
 dkms.conf
 *.vsidx
+Norda.BL/obj/Debug/net7.0/Norda.BL.csproj.AssemblyReference.cache
